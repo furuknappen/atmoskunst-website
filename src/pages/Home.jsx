@@ -1,4 +1,4 @@
-
+import { Link } from "react-router";
 
 function Home() {
   return (<>
@@ -6,6 +6,7 @@ function Home() {
       <p >
         Home
       </p>
+       <Link to="/atmoskunst-website/designers">designers</Link>
     </>
   )
 }
