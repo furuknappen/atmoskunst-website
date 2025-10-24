@@ -1,0 +1,48 @@
+.designerSection {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+.designerSection p {
+  padding-bottom: 2rem;
+  line-height: 2rem;
+
+}
+
+.imageSection {
+  /* 
+ width:100%; */
+  display: flex;
+  width: auto;
+  /* gap: 1rem;  */
+  justify-content: space-around;
+}
+
+.imageSection img {
+  width: clamp(5rem, 29vw, 30rem);
+  aspect-ratio: 1/1;
+  /* object-fit: cover;  */
+  /* flex: 1 1 1; */
+}
+
+@media (min-width: 768px) {
+  .designerSection {
+    width: 100%
+  }
+
+  .imageSection {
+    gap: 1rem;
+    /* width: 100%; */
+  }
+
+  .imageSection img {
+    width: clamp(3rem, 10vw, 25rem);
+
+
+
+  }
+}
