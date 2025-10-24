@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Quicksand:wght@300..700&family=Rufina:wght@400;700&family=Varela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Quicksand:wght@300..700&display=swap');
 
 
 :root {
@@ -20,8 +20,8 @@
 :root{
   --borderRad: 5px;
   --h1: "Quicksand";
-  --h2: "Rufina";
-  --textFont: "Varela";
+  --h2: "Merriweather";
+  --textFont: "Libre Franklin";
 
   --h1Size: 2rem;
   --h2Size: 1.5rem;
@@ -31,7 +31,7 @@
 
 @media (min-width: 768px) {
   :root{
-  --h1Size: 2.3rem;
+  --h1Size: 2.8rem;
   --h2Size: 2rem;
   --pSize:1.2rem
 
