@@ -1,0 +1,17 @@
+.headerDiv{
+  background-color: var(--mainColor) ;
+  position: fixed;
+  width: 100vw;
+  height: 4rem;
+  display:flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.logo {
+  width: 70px;
+  height: 40px;
+  stroke: var(--fontColorLight);
+  color: var(--fontColorLight);
+}

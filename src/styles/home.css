@@ -1,0 +1,32 @@
+.map-container {
+  width: 20rem;
+  height: 20rem; 
+  /* border: 1px solid var(--mainColor); */
+  border-radius: var(--borderRad);
+  margin-inline: auto;
+}
+
+.homeMain {
+ padding: 2rem
+
+}
+.homeMain h1{ 
+ text-align: center;
+}
+
+.homeMain h2 {
+   text-align: center;
+}
+.homeMain p{
+  padding-inline:2rem;
+  line-height: 1.7;
+   text-align: center;
+}
+
+.Åpningsider{
+  padding-block: 3rem
+}
+.Åpningsider h2{
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}

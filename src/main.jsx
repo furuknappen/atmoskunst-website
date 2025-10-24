@@ -1,6 +1,10 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router";
+import { BrowserRouter, Routes, Route } 
+
+
+
+from "react-router";
 import './styles/global.css'
 import './styles/variables.css'
 import Home from './pages/Home.jsx'
@@ -14,7 +18,7 @@ createRoot(document.getElementById('root')).render(
       
           <Route element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="designers" element={<Designers />} />
+            <Route path="/designers" element={<Designers />} />
           </Route>
 
       </Routes>

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&family=Quicksand:wght@300..700&family=Rufina:wght@400;700&family=Varela&display=swap');
+
+
+:root {
+  --mainColor: #003248;
+  --accentColor1: #E3F6FF;
+  --accentColor2: #9BD5EF;
+  --accentColor3: #498BA8;
+  --accentColor4: #185772;
+
+
+  --secondColor1: #DFD9C6;
+  --secondColor2: #AA9C81;
+  --secondColor3: #7E7461;
+
+  --fontColorDark: rgb(20, 20, 20);
+  --fontColorLight: #f9f5ea;
+}
+
+:root{
+  --borderRad: 5px;
+  --h1: "Quicksand";
+  --h2: "Rufina";
+  --textFont: "Varela";
+
+  --h1Size: 2rem;
+  --h2Size: 1.5rem;
+  --pSize:1rem
+}
+
+
