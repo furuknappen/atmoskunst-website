@@ -21,17 +21,17 @@ return <>
         <div aria-label="Follow Rainy Days on social media">
           <ul className="socials">
             <li>
-              <a href="https://tiktok/atmoskunst" target="_blank" aria-label="Atmos Kunst on tiktok">
+              <a href="https://www.tiktok.com/@atmos.kunst" target="_blank" aria-label="Atmos Kunst on tiktok">
               <Tiktok />
               </a>
             </li>
             <li>
-              <a href="https://instagram.com/" target="_blank" aria-label=" Atmos Kunst on instagram">
+              <a href="https://instagram.com/atmos.kunst" target="_blank" aria-label=" Atmos Kunst on instagram">
               <Instagram />
               </a>
             </li>
             <li>
-              <a href="https://facebook.com/" target="_blank" aria-label=" Atmos Kunst on facebook">
+              <a href="https://www.facebook.com/profile.php?id=61582690341465" target="_blank" aria-label=" Atmos Kunst on facebook">
           <Facebook />
               </a>
             </li>
@@ -39,6 +39,7 @@ return <>
         </div>
 
       </div>
+
 
       {/* <nav aria-labelledby="footer-help-info">
         <h3 id="footer-help-info">HELP & INFORMATION</h3>
@@ -49,9 +50,9 @@ return <>
           <li> <a href="/comingsoon-page.html"> Track order </a> </li>
           <li> <a href="/comingsoon-page.html"> Delivery & returns</a> </li>
         </ul>
-      </nav>
+      </nav> */}
 
-      <nav aria-labelledby="footer-about-rainy-days">
+      {/* <nav aria-labelledby="footer-about-rainy-days">
         <h3 id="footer-about-rainy-days"> ABOUT RAINY DAYS </h3>
         <ul>
           <li> <a href="/comingsoon-page.html"> About us </a> </li>
