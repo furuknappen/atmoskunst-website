@@ -11,12 +11,12 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="atmoskunst-website">
+      
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="designers" element={<Designers />} />
           </Route>
-        </Route>
+
       </Routes>
     </BrowserRouter>
   </StrictMode>

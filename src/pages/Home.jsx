@@ -6,7 +6,7 @@ function Home() {
       <p >
         Home
       </p>
-       <Link to="/atmoskunst-website/designers">designers</Link>
+       <Link to="/designers">designers</Link>
     </>
   )
 }
