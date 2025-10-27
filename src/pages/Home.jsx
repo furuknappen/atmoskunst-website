@@ -3,12 +3,14 @@ import { Link } from "react-router";
 import React from "react";
 import MapComponent from "../components/MapComponent.jsx";
 import LocationPic from "../assets/google-atmos.png"
-
+import HeroSection from "../components/heroSection.jsx";
 import '../styles/home.css'
+
 
 function Home() {
   return (<>
     <main className="homeMain">
+      <HeroSection />
       <h1>
         Vi åpner 1. November!
       </h1>
