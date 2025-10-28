@@ -1,3 +1,19 @@
 .heroImg {
   width: 100vw;
 }
+
+.heroImgDesktop{
+    width: 100vw;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .heroImg {
+display:none
+}
+
+.heroImgDesktop{
+
+  display: block
+}
+}
