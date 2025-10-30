@@ -17,8 +17,30 @@
   --fontColorLight: #f9f5ea;
 }
 
+:root {
+  --mainColor: #8E826B;
+  --accentColor1: #EFE9D5;
+  --accentColor2: #BCAC8F;
+  --accentColor3: #8E826B;
+  --accentColor4: #665D4D;
+  --accentColor5: #33312B;
+
+  --secondColor1: #E3F6FF;
+  --secondColor2: #9BD5EF;
+  --secondColor3: #498BA8;
+  --secondColor4: #1C6180;  --secondColor5: #003248;
+
+  --fontColorDark: rgb(20, 20, 20);
+  --fontColorLight: #f9f5ea;
+}
+
+
+
+
+
+
 :root{
-  --borderRad: 5px;
+  --borderRad: 12px;
   --h1: "Montserrat";
   --h2: "Montserrat";
   --textFont: "Libre Franklin";
@@ -31,10 +53,9 @@
 
 @media (min-width: 768px) {
   :root{
-  --h1Size: 2.8rem;
-  --h2Size: 2rem;
+  --h1Size: 3.7rem;
+  --h2Size: 2.7rem;
   --pSize:1.2rem
 
   }
 }
-

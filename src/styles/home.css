@@ -1,41 +1,34 @@
 .map-container {
   width: 80%;
-  height: 30rem; 
+  height: 30rem;
   /* border: 1px solid var(--mainColor); */
   border-radius: var(--borderRad);
   margin-inline: auto;
 }
 
 .homeMain {
- padding: 2rem;
- align-items: center;
-
+  padding-top: 4rem;
+  align-items: center;
 }
-.homeMain h1{ 
- text-align: center;
- margin-top: 2rem;
+
+.homeMain h1 {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .homeMain h2 {
-   text-align: center;
+  text-align: center;
 }
-.homeMain p{
-  padding-inline:2rem;
+
+.homeMain p {
+  padding-inline: 2rem;
   line-height: 1.7;
-   text-align: center;
+  text-align: center;
 }
 
-.Åpningsider{
-  padding-block: 3rem
-}
-.Åpningsider h2{
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-}
-
-.locationPic{
+.locationPic {
   width: 100%;
-  
+
 }
 
 @media (min-width: 768px) {
@@ -44,13 +37,22 @@
     padding-top: 7rem;
   }
 
-    .homeMain h2 {
+  .homeMain h2 {
     padding: 2rem;
+  }
+
+  .text {
+    width: 50%;
+    padding-bottom: 5rem;
   }
 
   .map-container {
     width: 50%;
     height: 40rem;
     aspect-ratio: 1 / 1;
+  }
+
+  .location p {
+    margin-bottom: 2rem
   }
 }
