@@ -1,0 +1,66 @@
+.displayContainer {
+  background-color: var(--mainColor);
+  width: 100vw;
+  padding: 1rem
+}
+
+.displayContainer h2 {
+  color: var(--fontColorLight);
+  font-size: var(--);
+  margin-block:1rem;
+}
+
+.imgContainer {
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, auto);
+}
+
+.imgDiv {
+  width: 100%;
+  /* You can use %, vw, etc. */
+  aspect-ratio: 1 / 1;
+  /* Keeps it perfectly square */
+  overflow: hidden;
+  /* Hides overflow when image covers */
+  border-radius: var(--borderRad);
+  /* Optional: rounded corners */
+  transition: transform 0.3s ease;
+}
+
+.displayImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Makes image fill & crop */
+  display: block;
+  /* Removes bottom gap */
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .imgContainer {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+  }
+}
+
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+  .imgContainer {
+    padding-inline: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .displayContainer h2 {
+    color: var(--fontColorLight);
+    
+    margin-top: 1rem;
+  }
+}
+
+/*............ Large Desktops ................*/
+@media (min-width: 2550px) {}
