@@ -1,7 +1,8 @@
 .displayContainer {
   background-color: var(--mainColor);
   width: 100vw;
-  padding: 1rem
+  padding: 1rem;
+  
 }
 
 .displayContainer h2 {

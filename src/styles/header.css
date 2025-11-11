@@ -1,6 +1,6 @@
 .headerDiv{
-  background-color: var(--mainColor) ;
-  position: fixed;
+  background-color: transparent ;
+  position: static;
   width: 100vw;
   height: 4rem;
   display:flex;
@@ -10,8 +10,8 @@
 }
 
 .logo {
-  width: 70px;
-  height: 40px;
-  stroke: var(--fontColorLight);
-  color: var(--fontColorLight);
+  width: 90px;
+  height: 50px;
+  stroke: var(--accentColor4);
+  color: var(--accentColor4);
 }

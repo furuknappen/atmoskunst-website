@@ -104,6 +104,7 @@ footer p {
 
   .flexDivFooter {
     flex-direction: row;
+    justify-content: center;
   }
 
   footer li {

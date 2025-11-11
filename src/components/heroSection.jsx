@@ -1,13 +1,16 @@
-import HeroImg from '../assets/openingBanner.png'
+import shopPhotoMob from '../assets/shop/shop1.jpg'
 import '../styles/hero.css'
-import bannerDesktop from '../assets/bannerDesktop.png'
+import shopPhoto from '../assets/shop/shop3.jfif'
 
 
 function HeroSection() {
   return <>
-  {/* <img className="heroImg" src={HeroImg} ></img> */}
-  {/* <img className="heroImgDesktop" src={bannerDesktop} ></img> */}
+    <div className='heroImgContainer'>
+      <img className="heroImgMob" src={shopPhotoMob} ></img>
 
+      <img className="heroImgDesktop" src={shopPhoto} ></img>
+      <a className='heroBtn' href="/designers"> Møt oss </a>
+    </div>
   </>
 }
 

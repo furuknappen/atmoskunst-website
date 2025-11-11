@@ -12,23 +12,22 @@
 
 
 .homeMain {
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
   align-items: center;
 }
 
 .homeMain h1 {
-  text-align: center;
-  margin-top: 2rem;
+  /* text-align: center; */
+  /* margin-top: 2rem; */
 }
 
 .homeMain h2 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .homeMain p {
-  padding-inline: 2rem;
-  line-height: 1.7;
-  text-align: center;
+  padding-inline: 2.5rem;
+  /* text-align: center; */
 }
 
 .locationPic {
@@ -43,7 +42,7 @@
   }
 
   .homeMain h2 {
-    padding: 2rem;
+    margin-top: 2rem;
   }
 
   .text {

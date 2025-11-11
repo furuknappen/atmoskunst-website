@@ -12,7 +12,7 @@ body{
 
 }
 main {
- margin-top: 2rem;
+ /* margin-top: 0rem; */
  display:flex;
  flex-direction: column;
  /* align-items: center; */
@@ -20,7 +20,7 @@ main {
 }
 
 a{
-  color: black;
+  color: var(--fontColorDark);
   text-decoration: none;
   font-family: var(--textFont);
 }
@@ -29,11 +29,7 @@ a:hover{
   text-decoration: underline;
 }
 
-p {
-  font-family: var(--textFont);
-  font-size: var(--pSize);
-  padding-bottom: 1rem;
-}
+
 .dark{
    color: var(--fontColorDark);
 }
@@ -43,33 +39,63 @@ p {
 
 }
 
+.text-center{
+   /* align-items: center; */
+}
+
+.margin-btm{
+  padding-bottom:1rem;
+}
 
 h1 {
-  font-size: var(--h1Size);
+  font-size: 2rem;
   font-family: var(--h1);
-  color: var(--fontColorDark);
-  padding-bottom: 1rem;
+  margin: 15px 0px 10px;
   font-weight: 600;
-
+  text-align: center;
 }
+
 h2{
-  font-size: var(--h2Size);
+  font-size: 1.5rem;
   font-family: var(--h2);
   color: var(--fontColorDark);
   padding-bottom: 1rem;
- margin-top: 2rem;
+  margin: 0 0 .5em 0;
+  padding-top: 0.5px;
   font-weight: 500;
+  text-align: center;
 
 }
-/* TODO: ny p font */
 
+p {
+  font-family: var(--textFont);
+  font-size: 1.13rem;
+  /* padding-bottom: 1rem; */
+  margin: 0px 0px 18px;
+  line-height: 1.55rem;
+  text-align: center;
+  line-height: 1.7;
+}
+
+p:last-child{
+  margin-bottom: 0px;
+}
 
 @media (min-width: 768px) {
   h1 {
-
+  font-size: 2.36rem;
   }
 
-  h2 {
-    /* margin-top: 7rem; */
+}
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 3.25rem;
   }
+  h2{ 
+    font-size: 2rem;
+  }
+
+
 }

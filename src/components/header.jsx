@@ -5,8 +5,10 @@ import Logo from '../assets/atmos-egen.svg?react'
 function Header() {
   return <>
   <header className="headerDiv">
-    <Logo className="logo"/>
-  
+    <Link to="/" >
+        <Logo className="logo" alt="Atmos Kunst logo"/>
+    </Link>
+    
 {/* <nav>
  <Link to="/designers">Våre designere</Link>
  <Link to="/about-us">About us</Link>
