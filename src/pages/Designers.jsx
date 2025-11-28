@@ -1,25 +1,20 @@
 import DesignerSection from '../components/designerSection.jsx'
 import '../styles/designers.css'
+import designers from "../data/designers.json"
 
 
 function Designers() {
+
   return (<>
-     <main className='designersMain'>
-     
-     <h1> Dette er oss</h1>
+    <main className='designersMain'>
 
- <div className='designersContainer'>
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-  <DesignerSection />
-</div>
+      <h1> Dette er oss</h1>
 
-   </main> </>
+      <div className='designersContainer'>
+        {designers.map(({ title, text, images }) => <DesignerSection title={title} text={text} images={images} />)}
+      </div>
+
+    </main> </>
   )
 }
 

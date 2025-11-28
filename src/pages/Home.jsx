@@ -15,18 +15,23 @@ function Home() {
     <main className="homeMain"> 
       <HeroSection />
       <HeroGrid />
-      <OpeningHours />
-
+      {/* <OpeningHours /> */}
+      <section class="textDiv">
       <h1 className='dark '>Velkommen!</h1>
       <p className="text dark margin-btm"> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å kunne selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
+     </section>
 
-
+     <section class="textDiv">
      <div className="location ">
         <h2 >Hvor finner du oss?</h2>
         <p>Du finner oss i Thomas Angells gt. 27 gate, i det gamle lokalet til M. Sommer, ved siden av Flying tiger. </p>
         <MapComponent />
       </div>
+     </section>
 
+     <Section title="Velkommen!" text="djasjdasld">
+        <MapComponent />
+     </Section>
     
 
 

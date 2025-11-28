@@ -18,7 +18,7 @@
 }
 
 :root {
-  --mainColor: #8E826B;
+  --mainColor: #1C6180;
   --accentColor1: #EFE9D5;
   --accentColor2: #BCAC8F;
   --accentColor3: #8E826B;
@@ -33,7 +33,22 @@
   --fontColorDark: #292806;
   --fontColorLight: #f9f5ea;
 }
+:root {
+  --mainColor: #498BA8;
+  --accentColor1: #EFE9D5;
+  --accentColor2: #BCAC8F;
+  --accentColor3: #498BA8;
+  --accentColor4: #498BA8;
+  --accentColor5: #33312B;
 
+  --secondColor1: #E3F6FF;
+  --secondColor2: #9BD5EF;
+  --secondColor3: #498BA8;
+  --secondColor4: #1C6180;  --secondColor5: #003248;
+
+  --fontColorDark: #292806;
+  --fontColorLight: #f9f5ea;
+}
 
 
 

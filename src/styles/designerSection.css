@@ -14,8 +14,7 @@
 }
 
 .imageSection {
-  /* 
- width:100%; */
+  /* width:100%; */
   display: flex;
   width: auto;
   /* gap: 1rem;  */
