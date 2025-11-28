@@ -1,0 +1,35 @@
+
+.cardInfoDesigners{
+    height: auto;
+    width: 1fr;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    text-wrap: wrap;
+
+}
+
+
+
+
+.cardInfoDesigners .imgDiv{
+    height: auto;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 0px;
+}
+
+
+.cardInfoDesigners h3{
+    margin-block: 0.5rem;
+
+}
+
+
+.cardInfoDesigners .readMoreBtn{
+    align-self: flex-end;
+    justify-self: flex-end;
+    margin-top:auto;
+
+} 

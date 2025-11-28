@@ -1,0 +1,25 @@
+
+.readMoreBtn{
+    border: 3px solid var(--accentColor3);
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 50px;
+    color: var(--accentColor4);
+    font-weight: 600;
+    font-family: var(--h2);
+
+}
+
+
+.readMoreBtn:hover{
+    border: 3px solid var(--accentColor4);
+    padding-inline: 15px;
+    color: var(--accentColor5);
+    text-decoration: none;
+}
+
+/* 
+.readMoreBtn:active{
+    transform: translateY(3px);
+} */
+

@@ -7,6 +7,8 @@ import HeroSection from "../components/heroSection.jsx";
 import PictureDisplay from "../components/pictureDisplay.jsx";
 import OpeningHours from "../components/openingHours.jsx";
 import HeroGrid from "../components/heroGrid.jsx";
+import Events from "../components/eventSection.jsx";
+
 import '../styles/home.css'
 
 
@@ -14,9 +16,15 @@ function Home() {
   return (<>
     <main className="homeMain"> 
       <HeroSection />
+
+      <Events />
+
+
+
       <HeroGrid />
       {/* <OpeningHours /> */}
       <section class="textDiv">
+
       <h1 className='dark '>Velkommen!</h1>
       <p className="text dark margin-btm"> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å kunne selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
      </section>
