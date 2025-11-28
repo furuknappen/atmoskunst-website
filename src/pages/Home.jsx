@@ -31,16 +31,12 @@ function Home() {
 
      <section class="textDiv">
      <div className="location ">
-        <h2 >Hvor finner du oss?</h2>
+        <h2 id="hvor">Hvor finner du oss?</h2>
         <p>Du finner oss i Thomas Angells gt. 27 gate, i det gamle lokalet til M. Sommer, ved siden av Flying tiger. </p>
         <MapComponent />
       </div>
      </section>
 
-     <Section title="Velkommen!" text="djasjdasld">
-        <MapComponent />
-     </Section>
-    
 
 
       <PictureDisplay />
