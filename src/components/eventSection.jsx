@@ -5,8 +5,6 @@ function Events() {
     return <>
    <section>
 
-    he
-
 
 
 

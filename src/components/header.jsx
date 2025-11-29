@@ -8,11 +8,14 @@ function Header() {
     <Link to="/" >
         <Logo className="logo" alt="Atmos Kunst logo"/>
     </Link>
+
+
     
-{/* <nav>
- <Link to="/designers">Våre designere</Link>
- <Link to="/about-us">About us</Link>
-</nav> */}
+<nav className="headerNav">
+ {/* <Link to="/designers">Møt oss</Link> */}
+ {/* <Link to="/about-us">Om Atmos Kunst</Link> */}
+  {/* <Link to="/contact">Kontakt</Link> */}
+</nav>
 
   </header>
 </>

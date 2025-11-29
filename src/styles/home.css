@@ -17,6 +17,9 @@
 .homeMain {
   /* padding-top: 4rem; */
   align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: */
 }
 
 .homeMain h1 {
@@ -49,7 +52,8 @@
   }
 
   .text {
-    width: 50%;
+    /* width: 50%; */
+    width: 40rem;
     padding-bottom: 5rem;
   }
 

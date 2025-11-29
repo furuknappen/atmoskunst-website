@@ -5,13 +5,33 @@
   height: 4rem;
   display:flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(197, 195, 195);
 
 }
 
 .logo {
   width: 90px;
   height: 50px;
-  stroke: var(--accentColor4);
-  color: var(--accentColor4);
+  stroke: var(--mainColor);
+  color: var(--mainColor);
+  margin-left: 5rem;
 }
+
+.headerNav{
+  display: flex;
+  justify-content: space-between;
+  gap:6rem;
+  /* border: 2px solid red; */
+  font-family: var(--poppins);
+   font-weight: 300;
+   margin-right: 5rem
+}
+
+
+.headerNav a:hover{
+  text-decoration: underline 2px var(--mainColor);
+  color: var(--mainColor);
+ 
+
+} 
