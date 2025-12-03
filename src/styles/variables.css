@@ -53,15 +53,16 @@
   --fontColorDark: #003248;
   --fontColorLight: #f9f5ea;
 }
-
-
+/* 
+--h1: "Montserrat";
+  --h2: "Montserrat"; */
 
 
 
 :root{
   --borderRad: 12px;
-  --h1: "Montserrat";
-  --h2: "Montserrat";
+  --h1: "Poppins";
+  --h2:"Poppins";
   --textFont: "Libre Franklin";
   --poppins: "Poppins";
 

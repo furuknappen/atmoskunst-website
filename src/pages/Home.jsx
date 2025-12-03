@@ -8,6 +8,7 @@ import PictureDisplay from "../components/pictureDisplay.jsx";
 import OpeningHours from "../components/openingHours.jsx";
 import HeroGrid from "../components/heroGrid.jsx";
 import Events from "../components/eventSection.jsx";
+import LocationSection from "../components/locationSection.jsx";
 
 import '../styles/home.css'
 
@@ -23,19 +24,21 @@ function Home() {
 
       <HeroGrid />
       {/* <OpeningHours /> */}
-      <section class="textDiv">
+      <section className="textDiv last">
 
-      <h1 className='dark '>Velkommen!</h1>
-      <p className="text dark margin-btm"> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å kunne selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
+      <h1 className="dark ">Velkommen!</h1>
+      <p className="text dark "> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
      </section>
 
-     <section class="textDiv">
+     <LocationSection />
+
+     {/* <section className="textDiv locationSection last">
      <div className="location ">
         <h2 id="hvor">Hvor finner du oss?</h2>
         <p>Du finner oss i Thomas Angells gt. 27 gate, i det gamle lokalet til M. Sommer, ved siden av Flying tiger. </p>
         <MapComponent />
       </div>
-     </section>
+     </section> */}
 
 
 

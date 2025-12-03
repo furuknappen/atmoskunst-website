@@ -1,6 +1,4 @@
-main{
-    margin-top: 5rem;
-}
+
 
 .meetUsSection{
     display: grid;
@@ -8,10 +6,6 @@ main{
     grid-template-rows: repeat(8, 1fr) ;
     gap: 1rem;
     margin: 0.5rem;
-
-
-
-
 
 }
 

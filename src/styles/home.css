@@ -1,9 +1,4 @@
-.map-container {
-  width: 80%;
-  height: 30rem;
-  border-radius: var(--borderRad);
-  margin-inline: auto;
-}
+
 
 .info {
  padding-block: 3rem
@@ -36,10 +31,7 @@
   /* text-align: center; */
 }
 
-.locationPic {
-  width: 100%;
 
-}
 
 @media (min-width: 768px) {
   .homeMain h1 {
@@ -57,13 +49,5 @@
     padding-bottom: 5rem;
   }
 
-  .map-container {
-    width: 50%;
-    height: 40rem;
-    aspect-ratio: 1 / 1;
-  }
 
-  .location p {
-    margin-bottom: 2rem
-  }
 }

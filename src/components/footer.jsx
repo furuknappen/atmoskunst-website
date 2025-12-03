@@ -15,8 +15,8 @@ return <>
         <LogoFooter className="logoFooter" />
         </a>
 
-        {/* <a class="mobileLinks" href="/comingsoon-page.html"> Help & Information </a>
-        <a class="mobileLinks" href="/comingsoon-page.html"> About Rainy Days </a> */}
+        {/* <a className="mobileLinks" href="/comingsoon-page.html"> Help & Information </a>
+        <a className="mobileLinks" href="/comingsoon-page.html"> About Rainy Days </a> */}
 
         <div aria-label="Follow Rainy Days on social media">
           <ul className="socials">
