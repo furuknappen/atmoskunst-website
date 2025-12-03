@@ -7,23 +7,26 @@
   display: flex;
   justify-content: space-around;
 } */
- footer {
+footer {
   background-color: #F5F0EA;
   font-family: var(--fontText);
   color: #003248;
 }
+
 footer svg {
-  stroke: var(--MainColor);
+  stroke: var(--mainColor);
 }
-.logoA{
+
+.logoA {
   display: flex;
   justify-content: center;
-   color: #003248;
+  color: #003248;
 }
-.logoFooter{
- color: var(--MainColor);
- width: 70%;
- height:auto;
+
+.logoFooter {
+  color: var(--mainColor);
+  width: 70%;
+  height: auto;
 }
 
 .flexDivFooter {
@@ -31,7 +34,7 @@ footer svg {
   justify-content: space-between;
   flex-direction: column;
   padding-inline: clamp(10%, 12%, 8rem);
-  padding-block: 9vw;
+  padding-block: 5vw;
 
 }
 
@@ -67,7 +70,7 @@ footer h3 {
 .logoAndSocials {
   margin-top: 30px;
   margin-inline: 1rem;
-   color: var(--MainColor);
+  color: var(--MainColor);
 }
 
 .socials {

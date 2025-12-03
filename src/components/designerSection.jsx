@@ -2,11 +2,12 @@ import Bilde from "../assets/bilde.jpg"
 import '../styles/designerSection.css'
 
 
-function DesignerSection({ title, text, images }) {
+function DesignerCard({ title, text, images }) {
   return <>
     <section className="designerSection">
+      <div className="textDivDesigners">
       <h2>{title}</h2>
-      <p>{text}</p>
+      <p>{text}</p></div>
       <div className="imageSection">
         {images.map(({src, alt}) =>
           <img
@@ -21,4 +22,4 @@ function DesignerSection({ title, text, images }) {
   </>
 
 }
-export default DesignerSection
+export default DesignerCard

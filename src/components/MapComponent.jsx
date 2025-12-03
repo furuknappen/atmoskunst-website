@@ -1,5 +1,5 @@
 
-import '../styles/location.css '
+import '../styles/location.css'
 
 const MapComponent = () => {
   return (

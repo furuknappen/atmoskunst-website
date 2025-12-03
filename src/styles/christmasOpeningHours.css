@@ -1,0 +1,20 @@
+.OpeninghoursSection{
+   background-color: var(--secondColor2); 
+   padding: 1rem 5rem;
+}
+
+.weeksContainer{
+  display: flex;
+  /* flex-direction: column; */
+  gap: 3rem;
+  margin-bottom: 2rem;
+
+}
+
+.weeksContainer ul{
+  line-height: 1.8rem;
+}
+
+.weeksContainer h3{
+  margin-bottom: 0.6rem;
+} 

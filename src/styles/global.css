@@ -9,6 +9,7 @@ body{
   height: 100%;
   display:flex;
   flex-direction: column;
+    font-family: var(--textFont);
 
 }
 main {
@@ -22,13 +23,16 @@ main {
 a{
   color: var(--fontColorDark);
   text-decoration: none;
-  /* font-family: var(--textFont); */
+  font-family: var(--textFont);
 }
 
 a:hover{
   text-decoration: underline;
 }
 
+li{
+  list-style: none;
+}
 
 .dark{
    color: var(--fontColorDark);
@@ -53,6 +57,7 @@ h1 {
   margin: 15px 0px 10px;
   font-weight: 600;
   text-align: center;
+  color: var(--fontColorDark)
 }
 
 h2{

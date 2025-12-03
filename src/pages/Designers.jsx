@@ -1,4 +1,4 @@
-import DesignerSection from '../components/designerSection.jsx'
+import DesignerCard from '../components/designerSection.jsx'
 import '../styles/designers.css'
 import designers from "../data/designers.json"
 
@@ -11,7 +11,7 @@ function Designers() {
       <h1> Dette er oss</h1>
 
       <div className='designersContainer'>
-        {designers.map(({ title, text, images }) => <DesignerSection title={title} text={text} images={images} />)}
+        {designers.map(({ title, text, images }) => <DesignerCard title={title} text={text} images={images} />)}
       </div>
 
     </main> </>
