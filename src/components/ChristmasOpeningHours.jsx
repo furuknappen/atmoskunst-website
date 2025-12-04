@@ -1,12 +1,9 @@
 import '../styles/christmasOpeningHours.css';
 
-
-
-
  function ChristmasOpeningHours() {
   return (
     <section className="OpeninghoursSection last">
-      <h2 className="">Christmas Opening Hours</h2>
+      <h2 className="">Åpningstider i julen</h2>
 
       <div className="weeksContainer">
         <div>

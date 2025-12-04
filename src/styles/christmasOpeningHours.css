@@ -1,6 +1,7 @@
 .OpeninghoursSection{
    background-color: var(--secondColor2); 
    padding: 1rem 5rem;
+   border-radius: 8px;
 }
 
 .weeksContainer{
