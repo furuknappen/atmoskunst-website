@@ -36,10 +36,7 @@
     width: 100%
   }
 
-  .imageSection {
-    /* gap: 1rem; */
-    /* width: 100%; */
-  }
+  
 
   .imageSection img {
     width: clamp(3rem, 100%, 25rem);
