@@ -1,4 +1,4 @@
-import "../styles/HeroGrid.css"
+import "../styles/heroGrid.css"
 
 
 function HeroGrid() {
