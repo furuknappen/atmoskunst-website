@@ -1,40 +1,37 @@
-.map-container {
-  width: 80%;
-  height: 30rem;
-  border-radius: var(--borderRad);
-  margin-inline: auto;
-}
+
 
 .info {
  padding-block: 3rem
 
 }
 
+.textDiv{
+    padding-inline: 2.5rem;
+}
 
 .homeMain {
-  padding-top: 4rem;
+  /* padding-top: 4rem; */
   align-items: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: */
 }
 
 .homeMain h1 {
-  text-align: center;
-  margin-top: 2rem;
+  /* text-align: center; */
+  /* margin-top: 2rem; */
 }
 
 .homeMain h2 {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .homeMain p {
-  padding-inline: 2rem;
-  line-height: 1.7;
-  text-align: center;
+  /* padding-inline: 2.5rem; */
+  /* text-align: center; */
 }
 
-.locationPic {
-  width: 100%;
 
-}
 
 @media (min-width: 768px) {
   .homeMain h1 {
@@ -43,21 +40,14 @@
   }
 
   .homeMain h2 {
-    padding: 2rem;
+    margin-top: 2rem;
   }
 
   .text {
-    width: 50%;
+    /* width: 50%; */
+    width: 40rem;
     padding-bottom: 5rem;
   }
 
-  .map-container {
-    width: 50%;
-    height: 40rem;
-    aspect-ratio: 1 / 1;
-  }
 
-  .location p {
-    margin-bottom: 2rem
-  }
 }

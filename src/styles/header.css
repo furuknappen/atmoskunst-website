@@ -1,17 +1,37 @@
 .headerDiv{
-  background-color: var(--mainColor) ;
-  position: fixed;
+  background-color: transparent ;
+  position: static;
   width: 100vw;
-  height: 4rem;
+  height: 4.5rem;
   display:flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(197, 195, 195);
+ 
 
 }
 
 .logo {
-  width: 70px;
-  height: 40px;
-  stroke: var(--fontColorLight);
-  color: var(--fontColorLight);
+  width: 95px;
+  height: 55px;
+  stroke: var(--mainColor);
+  color: var(--mainColor);
+  margin-left: 5rem;
 }
+
+.headerNav{
+  display: flex;
+  justify-content: space-between;
+  gap:6rem;
+  /* border: 2px solid red; */
+  font-family: var(--poppins);
+   font-weight: 300;
+   margin-right: 5rem
+}
+
+
+.headerNav a:hover{
+  text-decoration: underline 2px var(--mainColor);
+  color: var(--mainColor);
+ 
+} 

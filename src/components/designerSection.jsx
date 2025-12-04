@@ -2,20 +2,18 @@ import Bilde from "../assets/bilde.jpg"
 import '../styles/designerSection.css'
 
 
-function DesignerSection() {
+function DesignerCard({ title, text, images }) {
   return <>
     <section className="designerSection">
-      <h2>
-        Furuknappen Keramikk
-      </h2>
-
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto tenetur optio earum quasi sint enim mollitia    quod praesentium modi, nulla magni reiciendis in iure eos rerum quis temporibus illum officia.
-      </p>
-
+      <div className="textDivDesigners">
+      <h2>{title}</h2>
+      <p>{text}</p></div>
       <div className="imageSection">
-        <img src={Bilde} ></img>
-        <img src={Bilde} ></img>
-        <img src={Bilde} ></img>
+        {images.map(({src, alt}) =>
+          <img
+            src={"/images/" + src}
+            alt={alt}></img>
+        )}
       </div>
     </section>
 
@@ -24,4 +22,4 @@ function DesignerSection() {
   </>
 
 }
-export default DesignerSection
+export default DesignerCard

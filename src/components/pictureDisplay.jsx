@@ -12,7 +12,7 @@ import '../styles/pictureDisplay.css'
 function pictureDisplay() {
   return <>
     <section className="displayContainer">
-      <h2 className='light'>Our products</h2>
+      <h2 className='light'>Noe av det man kan finne hos Atmos</h2>
       <div className="imgContainer">
         <div className="imgDiv">
           <img className="displayImg" src={Helene} alt=""></img>
@@ -43,6 +43,7 @@ function pictureDisplay() {
 
 
   </>
+
 
 
 

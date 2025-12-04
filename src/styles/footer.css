@@ -7,22 +7,26 @@
   display: flex;
   justify-content: space-around;
 } */
- footer {
-  background-color: var(--mainColor);
+footer {
+  background-color: #F5F0EA;
   font-family: var(--fontText);
-  color: var(--fontColorlight);
+  color: #003248;
 }
+
 footer svg {
-  stroke: var(--fontColorLight);
+  stroke: var(--mainColor);
 }
-.logoA{
+
+.logoA {
   display: flex;
   justify-content: center;
+  color: #003248;
 }
-.logoFooter{
- color: var(--fontColorLight);
- width: 70%;
- height:auto;
+
+.logoFooter {
+  color: var(--mainColor);
+  width: 70%;
+  height: auto;
 }
 
 .flexDivFooter {
@@ -30,7 +34,7 @@ footer svg {
   justify-content: space-between;
   flex-direction: column;
   padding-inline: clamp(10%, 12%, 8rem);
-  padding-block: 9vw;
+  padding-block: 5vw;
 
 }
 
@@ -45,7 +49,7 @@ footer ul {
 
 footer a {
   text-decoration: none;
-  color: var(--fontColorLight);
+  /* color:  #003248;; */
   font-size: 1rem;
 
 }
@@ -66,6 +70,7 @@ footer h3 {
 .logoAndSocials {
   margin-top: 30px;
   margin-inline: 1rem;
+  color: var(--MainColor);
 }
 
 .socials {
@@ -104,6 +109,7 @@ footer p {
 
   .flexDivFooter {
     flex-direction: row;
+    justify-content: center;
   }
 
   footer li {

@@ -15,10 +15,10 @@ return <>
         <LogoFooter className="logoFooter" />
         </a>
 
-        {/* <a class="mobileLinks" href="/comingsoon-page.html"> Help & Information </a>
-        <a class="mobileLinks" href="/comingsoon-page.html"> About Rainy Days </a> */}
+        {/* <a className="mobileLinks" href="/comingsoon-page.html"> Help & Information </a>
+        <a className="mobileLinks" href="/comingsoon-page.html"> About Rainy Days </a> */}
 
-        <div aria-label="Follow Rainy Days on social media">
+        <div aria-label="Follow Atmos kunst on social media">
           <ul className="socials">
             <li>
               <a href="https://www.tiktok.com/@atmos.kunst" target="_blank" aria-label="Atmos Kunst on tiktok">

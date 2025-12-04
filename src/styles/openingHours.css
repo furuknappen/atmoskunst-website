@@ -1,9 +1,10 @@
 .hoursContainer {
   width: 90%;
-  background-color: var(--accentColor4);
+  background-color: var(--accentColor3);
   color: var(--fontColorLight);
   border-radius: var(--borderRad);
-  margin-block: 1rem
+  margin-block: 1rem;
+  padding: 1rem;
 }
 
 .heroContainer h2 {
@@ -11,7 +12,7 @@
 }
 
 .heroContainer p {
-  margin-block: 1rem;
+  /* margin-block: 1rem; */
   color: var(--fontColorLight);
 }
 
@@ -19,7 +20,7 @@
 @media (min-width: 768px) {
   .hoursContainer {
     width: 50%;
-    /* margin-block: 1rem; */
+    margin-block: 5rem;
     padding-bottom: 3rem
   }
 }

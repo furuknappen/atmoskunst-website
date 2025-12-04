@@ -1,0 +1,33 @@
+
+
+.locationSection{
+  /* background-color: var(--accentColor1); */
+}
+
+.locationSection h2{
+  margin-top: 2rem;
+
+}
+
+.map-container {
+  width: 80%;
+  height: 30rem;
+   /* aspect-ratio: 1 /  2; */
+  border-radius: var(--borderRad);
+  margin-inline: auto;
+}
+
+
+@media (min-width: 768px) {
+  .map-container {
+    width: 80%;
+    height: 40rem;
+    /* aspect-ratio: 1 / 4; */
+    /* aspect-ratio: 1 / 1; */
+  }
+
+  .location p {
+    margin-bottom: 2rem
+  }
+}
+
