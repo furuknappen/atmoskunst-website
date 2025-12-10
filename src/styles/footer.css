@@ -8,7 +8,8 @@
   justify-content: space-around;
 } */
 footer {
-  background-color: #F5F0EA;
+  /* background-color: #F5F0EA; */
+  background-color: #DFD9C6;
   font-family: var(--fontText);
   color: #003248;
 }
