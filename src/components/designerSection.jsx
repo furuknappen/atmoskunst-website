@@ -1,4 +1,3 @@
-import Bilde from "../assets/bilde.jpg"
 import '../styles/designerSection.css'
 
 
@@ -11,7 +10,7 @@ function DesignerCard({ title, text, images }) {
       <div className="imageSection">
         {images.map(({src, alt}) =>
           <img
-            src={"/images/" + src}
+            src={"/images/designersImg/" + src}
             alt={alt}></img>
         )}
       </div>
