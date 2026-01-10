@@ -4,51 +4,141 @@
     "text": "Camilla er skaperen av Furuknappen. Hun har fokus på å skape hverdagsgjenstander som er funksjonelle og skaper glede.  ",
     "images": [
       {
-        "src": "bilde.jpg",
+        "src": "camilla-pfp.png",
+        "alt": "Camilla med en skål"
+      },
+      {
+        "src": "camilla1.png",
         "alt": "skål med bjørn"
       },
       {
-        "src": "camilla.jpg",
-        "alt": "skål med bjørn"
-      },
-      {
-        "src": "bilde.jpg",
+        "src": "camilla2.png",
         "alt": "skål med bjørn"
       }
     ]
   },
     {
     "title": "Ingrid Oline",
-    "text": "Ingrid Oline er en designer opprinnelig fra Bodø. Nå har hun base i Trondheim. Med en forkjærlighet for bærekraft og godt håndverk, skaper hun produkter som kombinerer funksjon og følelse. Hun er særlig glad i å illustrere flora, insekter og dyr, men også opptatt av verdier om likestilling og inkludering. Dette er svært synlig i alle produktene hun lager som notatbøker, kort, handlenett, t-skjorter, plakater og originalkunst.",
+    "text": "Ingrid Oline er en designeren bak Ingrid Oline. Med en forkjærlighet for bærekraft og godt håndverk, skaper hun produkter som kombinerer funksjon og følelse.",
     "images": [
       {
-        "src": "bilde.jpg",
+        "src": "ingrid-pfp.png",
         "alt": "skål med bjørn"
       },
       {
-        "src": "camilla.jpg",
+        "src": "ingrid1.png",
         "alt": "skål med bjørn"
       },
       {
-        "src": "bilde.jpg",
+        "src": "ingrid2.jpg",
         "alt": "skål med bjørn"
       }
     ]
   },
     {
-    "title": "Furuknappen",
-    "text": "hfisfiuhu  hjksOUW UW",
+    "title": "Wanda Filarowski",
+    "text": "Wanda er interiørarkitekt og designer som lager interiør- og hverdagsprodukter med orinalitet og personlighet. Hun liker å utforske materialer, teksturer og farger, og å la nytt møte gammelt. Wanda er fritidsdykker så undervannsverdenen og naturen er en viktig inspiraskjonskilde i arbeidet hennes, sammen med gleden ved funksjonelle ting som varer.",
     "images": [
       {
-        "src": "bilde.jpg",
+        "src": "wanda-pfp.png",
         "alt": "skål med bjørn"
       },
       {
-        "src": "camilla.jpg",
+        "src": "wanda1.jpeg",
         "alt": "skål med bjørn"
       },
       {
-        "src": "bilde.jpg",
+        "src": "wanda2.jpg",
+        "alt": "skål med bjørn"
+      }
+    ]
+  },
+    {
+    "title": "Indre Jakimavicute",
+    "text": "Indre står bak Indrehjerterom og lager håndlagde smykker og små minner inspirert av naturen og barndommens blomsterenger. Hun bruker ekte, tørkede blomster plukket lokalt, bevart i klar resin. Arbeidene kombinerer naturlige materialer med enkle former og er laget med omtanke, nærhet og kjærlighet til det som varer.",
+    "images": [
+      {
+        "src": "indre-pfp.png",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "indre1.png",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "indre2.png",
+        "alt": "skål med bjørn"
+      }
+    ]
+  },
+    {
+    "title": "Helene Øyangen Lindberg",
+    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "images": [
+      {
+        "src": "helene-pfp.png",
+        "alt": "helene på verkstedet"
+      },
+      {
+        "src": "helene1.png",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "helene2",
+        "alt": "skål med bjørn"
+      }
+    ]
+  },
+    {
+    "title": "Minna Alina Dehls",
+    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "images": [
+      {
+        "src": "minna-pfp.png",
+        "alt": "helene på verkstedet"
+      },
+      {
+        "src": "minna1.jpg",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "minna2.jpg",
+        "alt": "skål med bjørn"
+      }
+    ]
+  },
+    {
+    "title": "Sunniva & Mayo",
+    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "images": [
+      {
+        "src": "sunniva-pfp.png",
+        "alt": "helene på verkstedet"
+      },
+      {
+        "src": "sunniva2.png",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "sunniva2.png",
+        "alt": "skål med bjørn"
+      }
+    ]
+  },
+    {
+    "title": "Laura",
+    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "images": [
+      {
+        "src": "laura-pfp.png",
+        "alt": "helene på verkstedet"
+      },
+      {
+        "src": "laura2.jpg",
+        "alt": "skål med bjørn"
+      },
+      {
+        "src": "laura2.jpg",
         "alt": "skål med bjørn"
       }
     ]
