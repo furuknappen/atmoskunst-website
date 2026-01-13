@@ -11,13 +11,13 @@ function Header() {
 
 
     
-<nav className="headerNav">
+{/* <nav className="headerNav"> */}
  {/* <Link to="/designers">Møt oss</Link> */}
  {/* <Link to="/about-us">Om Atmos Kunst</Link> */}
   {/* <Link to="/contact">Kontakt</Link> */}
-</nav>
-
-  </header>
+{/* </nav> */}
+ </header>
+ 
 </>
 }
 

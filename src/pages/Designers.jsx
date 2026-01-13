@@ -11,7 +11,7 @@ function Designers() {
       <h1> Dette er oss</h1>
 
       <div className='designersContainer'>
-        {designers.map(({ title, text, images }, index) => <DesignerCard key={index} title={title} text={text} images={images} />)}
+        {designers.map(({ title, text, images, soMe1, soMe2 }, index) => <DesignerCard key={index} title={title} text={text} images={images} soMe1={soMe1} soMe2={soMe2}/>)}
       </div>
 
     </main> </>

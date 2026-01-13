@@ -31,7 +31,7 @@ function Home() {
         <p className="text dark "> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
       </section>
 
-      <ChristmasOpeningHours />
+      {/* <ChristmasOpeningHours /> */}
       <LocationSection />
 
       <PictureDisplay />

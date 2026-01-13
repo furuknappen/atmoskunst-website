@@ -64,7 +64,7 @@ h2{
   font-size: 1.5rem;
   font-family: var(--h2);
   color: var(--fontColorDark);
-  padding-bottom: 1rem;
+  /* padding-bottom: 1rem; */
   margin: 0 0 .5em 0;
   padding-top: 0.5px;
   font-weight: 500;
@@ -76,7 +76,7 @@ p {
   font-family: var(--textFont);
   font-size: 1.13rem;
   /* padding-bottom: 1rem; */
-  margin: 0px 0px 18px;
+  /* margin: 0px 0px 18px; */
   line-height: 1.55rem;
   text-align: center;
   line-height: 1.7;

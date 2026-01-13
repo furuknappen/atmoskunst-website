@@ -1,7 +1,7 @@
 [
   {
-    "title": "Furuknappen",
-    "text": "Camilla er skaperen av Furuknappen. Hun har fokus på å skape hverdagsgjenstander som er funksjonelle og skaper glede.  ",
+    "title": "Camilla Furuknappen Larsen",
+    "text": "Camilla står bak Furuknappen Keramikk og lager håndlagde keramikkverk i Trondheim. Hun har elsket å lage ting med hendene siden hun var liten, og har drevet med keramikk siden 2017. Camilla er selvlært og har en forkjærlighet for små figurer og funksjonelle gjenstander som sprer glede i hjemmet. ",
     "images": [
       {
         "src": "camilla-pfp.png",
@@ -9,35 +9,41 @@
       },
       {
         "src": "camilla1.png",
-        "alt": "skål med bjørn"
+        "alt": "skåler på et bord"
       },
       {
-        "src": "camilla2.png",
-        "alt": "skål med bjørn"
+        "src": "camilla2.jpg",
+        "alt": "Keramikkdompap"
       }
-    ]
+    ],
+ 
+    "soMe1": "Facebook: Furuknappen Keramikk",
+    "soMe2": "Instagram: @camilla_furuknappen"
   },
     {
     "title": "Ingrid Oline",
-    "text": "Ingrid Oline er en designeren bak Ingrid Oline. Med en forkjærlighet for bærekraft og godt håndverk, skaper hun produkter som kombinerer funksjon og følelse.",
+    "text": "Ingrid Oline er designer fra Bodø, nå basert i Trondheim, men produktene hennes lages fortsatt i Bodø. Med fokus på bærekraft og godt håndverk skaper hun ting som kombinerer funksjon og følelse. Hun elsker å illustrere flora, insekter og dyr, og verdier som likestilling og inkludering skinner tydelig gjennom alle hennes arbeider.",
     "images": [
       {
         "src": "ingrid-pfp.png",
-        "alt": "skål med bjørn"
+        "alt": "Ingrid ute"
       },
       {
         "src": "ingrid1.png",
-        "alt": "skål med bjørn"
+        "alt": "bursdagskort med tegnet kanin på"
       },
       {
         "src": "ingrid2.jpg",
-        "alt": "skål med bjørn"
+        "alt": "bursdagskort med blomster på"
       }
-    ]
+    ],
+ 
+    "soMe1": "Facebook: Furuknappen Keramikk",
+    "soMe2": "Instagram: @camilla_furuknappen"
   },
     {
     "title": "Wanda Filarowski",
-    "text": "Wanda er interiørarkitekt og designer som lager interiør- og hverdagsprodukter med orinalitet og personlighet. Hun liker å utforske materialer, teksturer og farger, og å la nytt møte gammelt. Wanda er fritidsdykker så undervannsverdenen og naturen er en viktig inspiraskjonskilde i arbeidet hennes, sammen med gleden ved funksjonelle ting som varer.",
+    "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
     "images": [
       {
         "src": "wanda-pfp.png",
@@ -51,11 +57,14 @@
         "src": "wanda2.jpg",
         "alt": "skål med bjørn"
       }
-    ]
+    ],
+ 
+    "soMe1": "Instagram: wanda.filarowski",
+    "soMe2": "Pinterest: wandafilarowski"
   },
     {
     "title": "Indre Jakimavicute",
-    "text": "Indre står bak Indrehjerterom og lager håndlagde smykker og små minner inspirert av naturen og barndommens blomsterenger. Hun bruker ekte, tørkede blomster plukket lokalt, bevart i klar resin. Arbeidene kombinerer naturlige materialer med enkle former og er laget med omtanke, nærhet og kjærlighet til det som varer.",
+    "text": "Indrehjerterom er et lite håndverksstudio i Trondheim, der Indre lager unike resinsmykker og dekor med ekte tørkede blomster. Hvert objekt foreviger naturens skjøre skjønnhet og hjelper til å vekke dyrebare minner fra spesielle øyeblikk. Natuen er viktig for Indre og har hjulpet henne gjennom vanskelige tider med sin stille styrke og helbredelse. Denne følelsen ønsker hun å dele med andre.  ",
     "images": [
       {
         "src": "indre-pfp.png",
@@ -69,11 +78,14 @@
         "src": "indre2.png",
         "alt": "skål med bjørn"
       }
-    ]
+    ],
+ 
+    "soMe1": "Facebook: Indrehjerterom",
+    "soMe2": "Instagram: indrehjerterom"
   },
     {
     "title": "Helene Øyangen Lindberg",
-    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "text": "Helene er industridesigner og gullsmedhåndverker Gullokk, som lager smykker for å tilføre jordnær eleganse til hverdagen. Med fokus på behagelig passform og holdbare konstruksjoner blir det hun lager favoritter som skinner i årevis. De små skattene av gull og sølv er ofte inspirert av nordisk natur, og lages med tradisjonelle håndverksteknikker i verkstedet på Byåsen i Trondheim.",
     "images": [
       {
         "src": "helene-pfp.png",
@@ -84,64 +96,75 @@
         "alt": "skål med bjørn"
       },
       {
-        "src": "helene2",
+        "src": "helene2.png",
         "alt": "skål med bjørn"
       }
-    ]
+    ],
+ 
+    "soMe1": "Instagram: @gullokk.no",
+    "soMe2": "Tiktok: @Gullokk"
   },
     {
     "title": "Minna Alina Dehls",
-    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "text": "Fox and Cubs Jewellery spesialiserer seg på håndlagde, unike smykker med halvedelstener, porselen og ferskvannsperler. Med fokus på kvalitet og personlig uttrykk er hvert element laget med omhu for å gjenspeile individualitet og meningsfulle minner. Fox and Cubs tilbyr et bærekraftig alternativ til masseproduserte smykker, og skaper varige skatter som forteller en historie.",
     "images": [
       {
         "src": "minna-pfp.png",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "minna1.jpg",
+        "src": "minna1.JPG",
         "alt": "skål med bjørn"
       },
       {
-        "src": "minna2.jpg",
+        "src": "minna2.JPG",
         "alt": "skål med bjørn"
       }
-    ]
+   ],
+ 
+    "soMe1": "Facebook: Fox&Cubs",
+    "soMe2": "Instagram: @foxandcubs.no"
   },
     {
-    "title": "Sunniva & Mayo",
-    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "title": "Sunniva & Mayo Kwapeng",
+    "text": "Château Privé er drømmen til Mayo og Sunniva - en idé som startet for lenge siden, men ble virkelig da de lanserte merket 01.02.2025. Mayo kommer fra Johannesburg, Sunniva fra Skatval. Sammen skaper de eksklusive nisjedufter som gir deg hverdagsluksus.",
     "images": [
       {
         "src": "sunniva-pfp.png",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "sunniva2.png",
+        "src": "sunniva1.png",
         "alt": "skål med bjørn"
       },
       {
         "src": "sunniva2.png",
         "alt": "skål med bjørn"
       }
-    ]
+   ],
+ 
+    "soMe1": "Instagram/Facebook: @chateaupriveperfume",
+    "soMe2": "TikTok: @chateauprive"
   },
     {
-    "title": "Laura",
-    "text": "Helene er utdannet gullsmed og driver verkstedet Gullokk. Hun er lidenskapelig opptatt av at smykker skal være en fryd for øyet, behagelig å ha på og vare lenge. Helene jobber både med egne arbeider, reparasjoner og bestillinger, og gir nytt liv til gammelt gull gjennom omsmelting.",
+    "title": "Laura Bustamante Donaire",
+    "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, se på og ta på.",
     "images": [
       {
         "src": "laura-pfp.png",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "laura2.jpg",
+        "src": "laura1.JPG",
         "alt": "skål med bjørn"
       },
       {
         "src": "laura2.jpg",
         "alt": "skål med bjørn"
       }
-    ]
+    ],
+    "soMe1": "Facebook: Laura Bustam Ceramics",
+    "soMe2": "Instagram: @laura.bustam.ceramics"
   }
 
 ]

@@ -1,44 +1,71 @@
-.designerSection {
-  margin-bottom: 3rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 100%;
-  /* background-color: rgb(255, 255, 255); */
-  padding: 1rem;
-}
-
-.designerSection p {
-  padding-bottom: 2rem;
-  line-height: 2rem;
-}
-
 .imageSection {
-  height: auto;
-  display: flex;
-  width: 100%;
-  gap: 1rem; 
-  justify-content: space-between;
-  /* margin-bottom: 1.5rem */
-  /* border: 2px solid red; */
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  max-width: 100%;
+  margin-top: auto;
 }
 
 .imageSection img {
-  /* width: clamp(5rem, 29vw, 30rem); */
   aspect-ratio: 1/1;
   width: 100%;
-  object-fit: cover; 
-  /* flex: 1 1 1; */
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+
 }
 
+.designerSection h2 {
+  padding-top: 1rem;
+}
+
+.designerSection p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.soMeContainer{
+  margin-top: 3rem
+}
+.soMeLink{
+  /* line-height: 0; */
+  color: gray;
+  margin-block: 0;
+  /* margin: 0px 0px 60px; */
+}
+
+
+/* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
   .designerSection {
-    width: 100%
+    display: flex;
+    overflow: hidden;
+    height: 100%;
+    flex-direction: column;
   }
 
-  
+  .imageSection {
+    gap: 1rem;
+  }
 
-  .imageSection img {
-    width: clamp(3rem, 100%, 25rem);
+  .contentContainer {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* border: 2px solid purple; */
+    margin: 4rem 1rem;
+  }
+
+
+}
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+ .designerSection p {
+    line-height: 1.6;
+    margin-bottom: 0rem;
+    margin-inline: 2rem
   }
 }
