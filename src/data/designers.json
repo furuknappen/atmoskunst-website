@@ -13,12 +13,54 @@
       },
       {
         "src": "camilla2.jpg",
-        "alt": "Keramikkdompap"
+        "alt": "Keramikkdompap som henger på en gren"
       }
     ],
  
     "soMe1": "Facebook: Furuknappen Keramikk",
     "soMe2": "Instagram: @camilla_furuknappen"
+  },
+      {
+    "title": "Helene Øyangen Lindberg",
+    "text": "Helene er industridesigner og gullsmedhåndverker Gullokk, som lager smykker for å tilføre jordnær eleganse til hverdagen. Med fokus på behagelig passform og holdbare konstruksjoner blir det hun lager favoritter som skinner i årevis. De små skattene av gull og sølv er ofte inspirert av nordisk natur, og lages med tradisjonelle håndverksteknikker i verkstedet på Byåsen i Trondheim.",
+    "images": [
+      {
+        "src": "helene-pfp.jpeg",
+        "alt": "Helene på verkstedet"
+      },
+      {
+        "src": "helene1.jpg",
+        "alt": "To halskjeder med hver sin sølvfisk på"
+      },
+      {
+        "src": "helene2.jpg",
+        "alt": "Helenes kolleksjon med ringer og armbånd med fjellkjeder form"
+      }
+    ],
+ 
+    "soMe1": "Instagram: @gullokk.no",
+    "soMe2": "Tiktok: @Gullokk"
+  },
+    {
+    "title": "Indre Jakimavicute",
+    "text": "Indrehjerterom er et lite håndverksstudio i Trondheim, der Indre lager unike resinsmykker og dekor med ekte tørkede blomster. Hvert objekt foreviger naturens skjøre skjønnhet og hjelper til å vekke dyrebare minner fra spesielle øyeblikk. Natuen er viktig for Indre og har hjulpet henne gjennom vanskelige tider med sin stille styrke og helbredelse. Denne følelsen ønsker hun å dele med andre.  ",
+    "images": [
+      {
+        "src": "indre-pfp.jpg",
+        "alt": "Indre i grå jakke"
+      },
+      {
+        "src": "indre1.jpg",
+        "alt": "svart smykkeanheng med tørkede blomster inni"
+      },
+      {
+        "src": "indre2.jpg",
+        "alt": "gulløredobber med lilla tørkede blomster inni hjerteformer"
+      }
+    ],
+ 
+    "soMe1": "Facebook: Indrehjerterom",
+    "soMe2": "Instagram: indrehjerterom"
   },
     {
     "title": "Ingrid Oline",
@@ -36,89 +78,43 @@
         "src": "ingrid2.jpg",
         "alt": "bursdagskort med blomster på"
       }
-    ],
- 
-    "soMe1": "Facebook: Furuknappen Keramikk",
-    "soMe2": "Instagram: @camilla_furuknappen"
-  },
+    ]
+  }, 
     {
-    "title": "Wanda Filarowski",
-    "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
+    "title": "Laura Bustamante Donaire",
+    "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, se på og ta på.",
     "images": [
       {
-        "src": "wanda-pfp.png",
-        "alt": "skål med bjørn"
-      },
-      {
-        "src": "wanda1.jpeg",
-        "alt": "skål med bjørn"
-      },
-      {
-        "src": "wanda2.jpg",
-        "alt": "skål med bjørn"
-      }
-    ],
- 
-    "soMe1": "Instagram: wanda.filarowski",
-    "soMe2": "Pinterest: wandafilarowski"
-  },
-    {
-    "title": "Indre Jakimavicute",
-    "text": "Indrehjerterom er et lite håndverksstudio i Trondheim, der Indre lager unike resinsmykker og dekor med ekte tørkede blomster. Hvert objekt foreviger naturens skjøre skjønnhet og hjelper til å vekke dyrebare minner fra spesielle øyeblikk. Natuen er viktig for Indre og har hjulpet henne gjennom vanskelige tider med sin stille styrke og helbredelse. Denne følelsen ønsker hun å dele med andre.  ",
-    "images": [
-      {
-        "src": "indre-pfp.png",
-        "alt": "skål med bjørn"
-      },
-      {
-        "src": "indre1.png",
-        "alt": "skål med bjørn"
-      },
-      {
-        "src": "indre2.png",
-        "alt": "skål med bjørn"
-      }
-    ],
- 
-    "soMe1": "Facebook: Indrehjerterom",
-    "soMe2": "Instagram: indrehjerterom"
-  },
-    {
-    "title": "Helene Øyangen Lindberg",
-    "text": "Helene er industridesigner og gullsmedhåndverker Gullokk, som lager smykker for å tilføre jordnær eleganse til hverdagen. Med fokus på behagelig passform og holdbare konstruksjoner blir det hun lager favoritter som skinner i årevis. De små skattene av gull og sølv er ofte inspirert av nordisk natur, og lages med tradisjonelle håndverksteknikker i verkstedet på Byåsen i Trondheim.",
-    "images": [
-      {
-        "src": "helene-pfp.png",
+        "src": "laura-pfp.png",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "helene1.png",
+        "src": "laura1.JPG",
         "alt": "skål med bjørn"
       },
       {
-        "src": "helene2.png",
+        "src": "laura2.jpg",
         "alt": "skål med bjørn"
       }
     ],
- 
-    "soMe1": "Instagram: @gullokk.no",
-    "soMe2": "Tiktok: @Gullokk"
+    "soMe1": "Facebook: Laura Bustam Ceramics",
+    "soMe2": "Instagram: @laura.bustam.ceramics"
   },
-    {
+  {
     "title": "Minna Alina Dehls",
     "text": "Fox and Cubs Jewellery spesialiserer seg på håndlagde, unike smykker med halvedelstener, porselen og ferskvannsperler. Med fokus på kvalitet og personlig uttrykk er hvert element laget med omhu for å gjenspeile individualitet og meningsfulle minner. Fox and Cubs tilbyr et bærekraftig alternativ til masseproduserte smykker, og skaper varige skatter som forteller en historie.",
     "images": [
       {
         "src": "minna-pfp.png",
-        "alt": "helene på verkstedet"
+        "alt": "Minna i svart blomstrete topp"
       },
       {
         "src": "minna1.JPG",
-        "alt": "skål med bjørn"
+        "alt": "perlearmbånd"
       },
       {
         "src": "minna2.JPG",
-        "alt": "skål med bjørn"
+        "alt": "øredobber med gule andeperler og perler"
       }
    ],
  
@@ -147,24 +143,28 @@
     "soMe2": "TikTok: @chateauprive"
   },
     {
-    "title": "Laura Bustamante Donaire",
-    "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, se på og ta på.",
+    "title": "Wanda Filarowski",
+    "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
     "images": [
       {
-        "src": "laura-pfp.png",
-        "alt": "helene på verkstedet"
+        "src": "wanda-pfp.jpeg",
+        "alt":  "Wanda ute med olajakke"
       },
       {
-        "src": "laura1.JPG",
-        "alt": "skål med bjørn"
+        "src": "wanda1.jpeg",
+        "alt": "Rød lampe av garn"
       },
       {
-        "src": "laura2.jpg",
-        "alt": "skål med bjørn"
+        "src": "wanda2.jpeg",
+        "alt": "fotografi av en hvit undervannssvegle"
       }
     ],
-    "soMe1": "Facebook: Laura Bustam Ceramics",
-    "soMe2": "Instagram: @laura.bustam.ceramics"
+ 
+    "soMe1": "Instagram: wanda.filarowski",
+    "soMe2": "Pinterest: wandafilarowski"
   }
+  
+
+   
 
 ]

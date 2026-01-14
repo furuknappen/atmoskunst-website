@@ -7,7 +7,7 @@ function DesignerCard({ title, text, images, soMe1, soMe2 }) {
       <div className='contentContainer'>
         <div className="textDivDesigners">
           <h2>{title}</h2>
-          <p>{text}</p>
+          <p className="designersText">{text}</p>
           <div className='soMeContainer'>
             <p className='soMeLink'>{soMe1}</p>
             <p className='soMeLink'> {soMe2}</p>

@@ -28,7 +28,7 @@ function Home() {
       <section className="textDiv last">
 
         <h1 className="dark ">Velkommen!</h1>
-        <p className="text dark "> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av julegaver!</p>
+        <p className="text dark "> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av gaver til både deg selv og de du er glad i!</p>
       </section>
 
       {/* <ChristmasOpeningHours /> */}

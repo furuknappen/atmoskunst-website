@@ -1,4 +1,4 @@
-import shopPhotoMob from '../assets/shop/shopgift.jpeg'
+import shopPhotoMob from '../assets/shop/IMG_6111.jpg'
 import '../styles/hero.css'
 import shopPhoto from '../assets/shop/shopgift.jpeg'
 import heroPhoto from '../../public/images/hero.jpg'

@@ -1,5 +1,9 @@
+.contentContainer {
+  margin-bottom: 3rem
+}
+
 .imageSection {
-  
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.5rem;
@@ -21,20 +25,31 @@
 }
 
 .designerSection p {
+
+  /* margin-bottom: 1.5rem; */
+}
+.designersText {
+  margin-bottom: 3rem;  
   line-height: 1.6;
-  margin-bottom: 1.5rem;
 }
 
-.soMeContainer{
-  margin-top: 3rem
+.soMeContainer {
+  margin-top: auto
 }
-.soMeLink{
+
+.soMeLink {
   /* line-height: 0; */
   color: gray;
   margin-block: 0;
   /* margin: 0px 0px 60px; */
 }
 
+.textDivDesigners {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
 
 /* .............. iPads (tablets) - Landscape ............ */
 @media (min-width: 768px) {
@@ -55,17 +70,15 @@
     flex-direction: column;
     flex: 1;
     /* border: 2px solid purple; */
-    margin: 4rem 1rem;
+    margin: 3rem 1rem;
   }
-
-
 }
 
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
- .designerSection p {
-    line-height: 1.6;
-    margin-bottom: 0rem;
-    margin-inline: 2rem
+
+  .designersText {
+    margin-bottom: 5rem;
+    /* margin-inline: 2rem */
   }
 }
