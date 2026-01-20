@@ -19,6 +19,7 @@ function DesignerCard({ title, text, images, soMe1, soMe2 }) {
         <div className="imageSection">
           {images.map(({ src, alt }) =>
             <img
+              loading="lazy"
               src={"/images/designersImg/" + src}
               alt={alt}></img>
           )}
