@@ -7,9 +7,9 @@ import heroPhoto from '../../public/images/hero.jpg'
 function HeroSection() {
   return <>
     <section className='heroImgContainer'>
-      <img className="heroImgMob" src={shopPhotoMob} ></img>
+      <img loading="eager" className="heroImgMob" src={shopPhotoMob} ></img>
 
-      <img className="heroImgDesktop" src={heroPhoto} ></img>
+      <img loading="eager" className="heroImgDesktop" src={heroPhoto} ></img>
       {/* <a className='heroBtn' href="/designers"> Møt oss </a> */}
       {/* <div className="heroText">
        <h1 className='light'> Ha en fin desember! </h1>
