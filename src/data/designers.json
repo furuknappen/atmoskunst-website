@@ -4,11 +4,11 @@
     "text": "Camilla står bak Furuknappen Keramikk og lager håndlagde keramikkverk i Trondheim. Hun har elsket å lage ting med hendene siden hun var liten, og har drevet med keramikk siden 2017. Camilla er selvlært og har en forkjærlighet for små figurer og funksjonelle gjenstander som sprer glede i hjemmet. ",
     "images": [
       {
-        "src": "camilla-pfp.png",
+        "src": "camilla-pfp.jpg",
         "alt": "Camilla med en skål"
       },
       {
-        "src": "camilla1.png",
+        "src": "camilla1.jpg",
         "alt": "skåler på et bord"
       },
       {
@@ -25,7 +25,7 @@
     "text": "Helene er industridesigner og gullsmedhåndverker Gullokk, som lager smykker for å tilføre jordnær eleganse til hverdagen. Med fokus på behagelig passform og holdbare konstruksjoner blir det hun lager favoritter som skinner i årevis. De små skattene av gull og sølv er ofte inspirert av nordisk natur, og lages med tradisjonelle håndverksteknikker i verkstedet på Byåsen i Trondheim.",
     "images": [
       {
-        "src": "helene-pfp.jpeg",
+        "src": "helene-pfp.jpg",
         "alt": "Helene på verkstedet"
       },
       {
@@ -64,32 +64,34 @@
   },
     {
     "title": "Ingrid Oline",
-    "text": "Ingrid Oline er designer fra Bodø, nå basert i Trondheim, men produktene hennes lages fortsatt i Bodø. Med fokus på bærekraft og godt håndverk skaper hun ting som kombinerer funksjon og følelse. Hun elsker å illustrere flora, insekter og dyr, og verdier som likestilling og inkludering skinner tydelig gjennom alle hennes arbeider.",
+    "text": "Ingrid Oline er designer og hun skaper innbydende papir- og tekstilprodukter. Arbeidene hennes kjennetegnes av rene linjer, ofte myke fargepaletter og botanikk, eller andre søte motiv. Med fokus på kvalitetsmaterialer, lokal produksjon og tidløse detaljer utvikler hun produkter som både inspirerer og varer. Ingrid lager: notatbøker, kort, t-skjorter, plakater, original kunst, oppskriftsbøker, små gavelapper for å nevne noe.",
     "images": [
       {
-        "src": "ingrid-pfp.png",
+        "src": "ingrid-pfp.jpg",
         "alt": "Ingrid ute"
       },
       {
-        "src": "ingrid1.png",
+        "src": "ingrid1.jpg",
         "alt": "bursdagskort med tegnet kanin på"
       },
       {
         "src": "ingrid2.jpg",
         "alt": "bursdagskort med blomster på"
       }
-    ]
+        ],
+    "soMe1": "Instagram: ingridoline",
+    "soMe2": "Facebook: ingridolineart"
   }, 
     {
     "title": "Laura Bustamante Donaire",
     "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, se på og ta på.",
     "images": [
       {
-        "src": "laura-pfp.png",
+        "src": "laura-pfp.jpg",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "laura1.JPG",
+        "src": "laura1.jpg",
         "alt": "skål med bjørn"
       },
       {
@@ -105,15 +107,15 @@
     "text": "Fox and Cubs Jewellery spesialiserer seg på håndlagde, unike smykker med halvedelstener, porselen og ferskvannsperler. Med fokus på kvalitet og personlig uttrykk er hvert element laget med omhu for å gjenspeile individualitet og meningsfulle minner. Fox and Cubs tilbyr et bærekraftig alternativ til masseproduserte smykker, og skaper varige skatter som forteller en historie.",
     "images": [
       {
-        "src": "minna-pfp.png",
+        "src": "minna-pfp.jpg",
         "alt": "Minna i svart blomstrete topp"
       },
       {
-        "src": "minna1.JPG",
+        "src": "minna1.jpg",
         "alt": "perlearmbånd"
       },
       {
-        "src": "minna2.JPG",
+        "src": "minna2.jpg",
         "alt": "øredobber med gule andeperler og perler"
       }
    ],
@@ -126,15 +128,15 @@
     "text": "Château Privé er drømmen til Mayo og Sunniva - en idé som startet for lenge siden, men ble virkelig da de lanserte merket 01.02.2025. Mayo kommer fra Johannesburg, Sunniva fra Skatval. Sammen skaper de eksklusive nisjedufter som gir deg hverdagsluksus.",
     "images": [
       {
-        "src": "sunniva-pfp.png",
+        "src": "sunniva-pfp.jpg",
         "alt": "helene på verkstedet"
       },
       {
-        "src": "sunniva1.png",
+        "src": "sunniva1.jpg",
         "alt": "skål med bjørn"
       },
       {
-        "src": "sunniva2.png",
+        "src": "sunniva2.jpg",
         "alt": "skål med bjørn"
       }
    ],
@@ -147,15 +149,15 @@
     "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
     "images": [
       {
-        "src": "wanda-pfp.jpeg",
+        "src": "wanda-pfp.jpg",
         "alt":  "Wanda ute med olajakke"
       },
       {
-        "src": "wanda1.jpeg",
+        "src": "wanda1.jpg",
         "alt": "Rød lampe av garn"
       },
       {
-        "src": "wanda2.jpeg",
+        "src": "wanda2.jpg",
         "alt": "fotografi av en hvit undervannssvegle"
       }
     ],

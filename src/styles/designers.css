@@ -24,13 +24,34 @@
   .designersContainer {
     grid-template-columns: repeat(2, 1fr);
   }
+  .designersMain h1 {
+  padding-left: 3rem
+}
+}
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+    .designersMain {
+    max-width:30rem;
+    margin-inline: auto;
+  }
 
 }
 
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
   .designersMain {
-    max-width:90rem;
+    max-width:80rem;
     margin-inline: auto;
   }
+
+}
+
+/*............ Large Desktops ................*/
+@media (min-width: 2550px) {
+    .designersMain {
+    max-width:0rem;
+    margin-inline: auto;
+  }
+
 }
