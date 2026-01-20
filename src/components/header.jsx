@@ -1,21 +1,21 @@
-import { Link } from "react-router";
+import { NavLink } from "react-router";
 import '../styles/header.css'
 import Logo from '../assets/atmos-egen.svg?react'
 
 function Header() {
   return <>
   <header className="headerDiv">
-    <Link to="/" >
+    <NavLink to="/" >
         <Logo className="logo" alt="Atmos Kunst logo"/>
-    </Link>
+    </NavLink>
 
 
     
-{/* <nav className="headerNav"> */}
- {/* <Link to="/designers">Møt oss</Link> */}
+<nav className="headerNav">
+ <NavLink to="/designers">Møt Designerne</NavLink>
  {/* <Link to="/about-us">Om Atmos Kunst</Link> */}
   {/* <Link to="/contact">Kontakt</Link> */}
-{/* </nav> */}
+</nav>
  </header>
  
 </>
