@@ -29,6 +29,17 @@
   <link rel="shortcut icon" href="./public/android-chrome-512x512.png" type="image/png">
   <link rel="shortcut icon" href="./public/apple-touch-icon.png" type="image/png">
 
+  <script>
+  // Check if we were redirected from a 404
+  (function() {
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+  })();
+</script>
+
   <title>Atmoskunst</title>
 </head>
 
