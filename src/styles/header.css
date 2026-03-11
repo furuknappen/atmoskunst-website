@@ -23,7 +23,7 @@
 .headerNav {
   display: flex;
   /* justify-content: space-between; */
-  /* gap:6rem; */
+  gap:4rem;
   /* border: 2px solid red; */
   font-family: var(--poppins);
   font-weight: 300;

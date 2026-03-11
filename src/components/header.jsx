@@ -13,6 +13,7 @@ function Header() {
     
 <nav className="headerNav">
  <NavLink to="/designers">Møt Designerne</NavLink>
+  {/* <NavLink to="/produkt-galleri">Produkt Galleri</  NavLink> */}
  {/* <Link to="/about-us">Om Atmos Kunst</Link> */}
   {/* <Link to="/contact">Kontakt</Link> */}
 </nav>

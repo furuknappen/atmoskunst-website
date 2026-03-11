@@ -8,6 +8,7 @@ import Home from './pages/Home.jsx'
 import Designers from './pages/Designers.jsx'
 import Lab from './pages/Lab.jsx'
 import Layout from './layouts/Layout.jsx'
+import ProductGallery from  "./pages/ProoductGallery.jsx"
 
 
 createRoot(document.getElementById('root')).render(
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="/designers" element={<Designers />} />
           <Route path="/lab" element={<Lab />} />
+           <Route path="/produkt-galleri" element={<ProductGallery />} />
         </Route>
       </Routes>
     </BrowserRouter>

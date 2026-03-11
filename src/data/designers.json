@@ -65,7 +65,7 @@
     {
     "title": "Ingrid Oline",
     "text": "Ingrid Oline er designer og hun skaper innbydende papir- og tekstilprodukter. Arbeidene hennes kjennetegnes av rene linjer, ofte myke fargepaletter og botanikk, eller andre søte motiv. Med fokus på kvalitetsmaterialer, lokal produksjon og tidløse detaljer utvikler hun produkter som både inspirerer og varer. Ingrid lager: notatbøker, kort, t-skjorter, plakater, original kunst, oppskriftsbøker, små gavelapper for å nevne noe.",
-    "images": [
+ "images": [
       {
         "src": "ingrid-pfp.jpg",
         "alt": "Ingrid ute"
@@ -82,9 +82,29 @@
     "soMe1": "Instagram: ingridoline",
     "soMe2": "Facebook: ingridolineart"
   }, 
+  {
+    "title": "May-Bente Sandnes",
+    "text": "May-Bente har alltid hatt en sterk skapertrang som gjenspeiles i både yrkesvalg og hobbyer. Hun elsker å planlegge, prosjektere og se ideer bli til ferdige resultater. Inspirasjonen henter hun fra hage, sjø og natur. Gjennom Atelier Maya Sandnes skaper hun unik kunst og brukskunst i glass, keramikk, betong og smykker i sølvleire.",
+    "images": [
+      {
+        "src": "maya-pfp.jpg",
+        "alt": "maya på verkstedet"
+      },
+      {
+        "src": "maya1.jpg",
+        "alt": "glassblomster på metallstand til å ha ute"
+      },
+      {
+        "src": "maya2.png",
+        "alt": "blå glass vase"
+      }
+        ],
+    "soMe1": "Facebook: Atelier Maya Sandnes",
+    "soMe2": "Instagram : ateliermayasandnes"
+  }, 
     {
     "title": "Laura Bustamante Donaire",
-    "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, se på og ta på.",
+    "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, ta på og se på.",
     "images": [
       {
         "src": "laura-pfp.jpg",

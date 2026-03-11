@@ -1,0 +1,74 @@
+[
+   {
+    "id": 1,
+    "title": "Frostklokke",
+    "artist": "Erik Voll",
+    "category": "Glass",
+    "span": "normal",
+    "img": "Skjermbilde 2026-03-11 145405.png",
+    "objectPosition": "center top"
+  },
+  {
+    "id": 2,
+    "title": "Blå skål",
+    "artist": "Mia Strand",
+    "category": "Keramikk",
+    "span": "normal",
+    "img": "camilla.jpg",
+    "objectPosition": "center top"
+  },
+ 
+  {
+    "id": 3,
+    "title": "Bylandskap #3",
+    "artist": "Sara Lund",
+    "category": "Foto",
+    "span": "tall",
+    "img": "Skjermbilde 2026-03-11 145509.png",
+    "objectPosition": "center top"
+  },
+  {
+    "id": 4,
+    "title": "Vevd teppe",
+    "artist": "Tone Bakke",
+    "category": "Tekstil",
+    "span": "normal",
+    "img": "beige.png",
+    "objectPosition": "center top"
+  },
+    {
+    "id": 5,
+    "title": "Blå skål",
+    "artist": "Mia Strand",
+    "category": "Keramikk",
+    "span": "wide",
+    "img": "camilla.jpg",
+    "objectPosition": "center 30%"
+  },
+  {
+    "id": 6,
+    "title": "Frostklokke",
+    "artist": "Erik Voll",
+    "category": "Glass",
+    "span": "normal",
+    "img": "Skjermbilde 2026-03-11 145405.png",
+    "objectPosition": "center top"
+  },
+  {
+    "id": 7,
+    "title": "Bylandskap #3",
+    "artist": "Sara Lund",
+    "category": "Foto",
+    "span": "tall",
+    "img": "Skjermbilde 2026-03-11 145509.png",
+    "objectPosition": "center top"
+  },
+  {
+    "id": 8,
+    "title": "Vevd teppe",
+    "artist": "Tone Bakke",
+    "category": "Tekstil",
+    "span": "big",
+    "img": "beige.png"
+  }
+]
