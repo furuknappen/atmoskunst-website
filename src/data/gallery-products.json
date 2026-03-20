@@ -5,7 +5,8 @@
     "artist": "Erik Voll",
     "category": "Glass",
     "span": "normal",
-    "img": "Skjermbilde 2026-03-11 145405.png",
+    "img": "IMG_6194.jpg",
+    "transform": "",
     "objectPosition": "center top"
   },
   {
@@ -14,7 +15,8 @@
     "artist": "Mia Strand",
     "category": "Keramikk",
     "span": "normal",
-    "img": "camilla.jpg",
+    "img": "IMG_6194.jpg",
+    "transform": "",
     "objectPosition": "center top"
   },
  
@@ -24,8 +26,10 @@
     "artist": "Sara Lund",
     "category": "Foto",
     "span": "tall",
-    "img": "Skjermbilde 2026-03-11 145509.png",
-    "objectPosition": "center top"
+    "img": "IMG_6194.jpg",
+    "transform": "",
+    "objectPosition": ""
+    
   },
   {
     "id": 4,
@@ -33,7 +37,8 @@
     "artist": "Tone Bakke",
     "category": "Tekstil",
     "span": "normal",
-    "img": "beige.png",
+    "img": "IMG_6194.jpg",
+    "transform": "",
     "objectPosition": "center top"
   },
     {
@@ -41,8 +46,9 @@
     "title": "Blå skål",
     "artist": "Mia Strand",
     "category": "Keramikk",
-    "span": "wide",
-    "img": "camilla.jpg",
+    "span": "tall",
+    "img": "IMG_6194.jpg",
+    "transform": "",
     "objectPosition": "center 30%"
   },
   {
@@ -51,16 +57,26 @@
     "artist": "Erik Voll",
     "category": "Glass",
     "span": "normal",
-    "img": "Skjermbilde 2026-03-11 145405.png",
+    "img": "IMG_6194.jpg",
+    "transform": "",
     "objectPosition": "center top"
+  },
+  {
+    "id": 8,
+    "title": "Vevd teppe",
+    "artist": "Tone Bakke",
+    "category": "Tekstil",
+    "span": "normal",
+    "img": "IMG_6194.jpg"
   },
   {
     "id": 7,
     "title": "Bylandskap #3",
     "artist": "Sara Lund",
     "category": "Foto",
-    "span": "tall",
-    "img": "Skjermbilde 2026-03-11 145509.png",
+    "span": "normal",
+    "img": "DSC01335.JPG",
+    "transform": "",
     "objectPosition": "center top"
   },
   {
@@ -69,6 +85,15 @@
     "artist": "Tone Bakke",
     "category": "Tekstil",
     "span": "big",
-    "img": "beige.png"
+    "img": "DSC01337.JPG"
+  }
+  ,
+  {
+    "id": 8,
+    "title": "Vevd teppe",
+    "artist": "Tone Bakke",
+    "category": "Tekstil",
+    "span": "normal",
+    "img": "DSC01339.JPG"
   }
 ]

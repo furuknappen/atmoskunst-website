@@ -86,14 +86,14 @@
 
  /* ── Bento Grid ── */
  .pg-grid {
-   margin-inline: auto;
+   /* margin-inline: auto; */
    padding: 0 48px;
    display: grid;
    grid-template-columns: repeat(4, 20rem);
    /* grid-auto-rows: 280px; */
    gap: 14px;
    grid-auto-rows: calc((38rem - 14px) / 2);
-   max-width: 80rem;
+   max-width: 85rem;
    margin: 0 auto;
    padding: 0 2rem;
  }

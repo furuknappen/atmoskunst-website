@@ -75,7 +75,8 @@ export default function ProductGallery() {
                 aria-label={`${product.title} av ${product.artist}`}
                 onKeyDown={(e) => e.key === "Enter" && setLightbox(product)}
               >
-                <img src={`images/galleryproducts/${product.img}`} alt={product.title} loading="lazy" style={{ objectPosition: product.objectPosition || "center center" }} />
+                {/* hvis bildene er feil vei og ikke det blir ordnet i mappe fila kan du bruke "transform": "", & "objectFit": "cover", */}
+                <img src={`images/galleryproducts/${product.img}`} alt={product.title} loading="lazy" style={{ objectPosition: product.objectPosition || "center center", transform: product.transform} } />
                 {/* <span className="pg-card-cat-badge">{product.category}</span> */}
                 <div className="pg-card-overlay">
                   {/* <span className="pg-card-title">{product.title}</span> */}

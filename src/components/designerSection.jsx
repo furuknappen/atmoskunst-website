@@ -11,9 +11,7 @@ function DesignerCard({ title, text, images, soMe1, soMe2 }) {
           <div className='soMeContainer'>
             <p className='soMeLink'>{soMe1}</p>
             <p className='soMeLink'> {soMe2}</p>
-
           </div>
-
         </div>
 
         <div className="imageSection">
