@@ -53,7 +53,7 @@ function DesignerCarousel() {
           aria-label={isPlaying ? 'Pause carousel auto-advance' : 'Play carousel auto-advance'}
           className="play-pause-button"
         >
-          {isPlaying ? '⏸ Pause' : '▶ Play'}
+          {isPlaying ? '⏸ Pause' : '▶ Start'}
         </button>
         <div
           role="region"
@@ -79,7 +79,7 @@ function DesignerCarousel() {
           aria-label="Previous designer"
           className="carousel-button"
         >
-          ← Previous
+          ← Forrige
         </button>
 
         <div role="tablist" aria-label="Carousel pages" className="carousel-indicators">
@@ -100,13 +100,13 @@ function DesignerCarousel() {
           aria-label="Next designer"
           className="carousel-button"
         >
-          Next →
+          Neste →
         </button>
       </div>
 
       <div className="carousel-status-controls">
         <div className="carousel-status" aria-live="polite" aria-atomic="true">
-          Designer {currentIndex + 1} of {designers.length}
+          Designer {currentIndex + 1} av {designers.length}
         </div>
 
       </div>

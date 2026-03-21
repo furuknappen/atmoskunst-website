@@ -1,4 +1,4 @@
-import { StrictMode, useEffect } from 'react'
+import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router";
 
@@ -8,7 +8,8 @@ import Home from './pages/Home.jsx'
 import Designers from './pages/Designers.jsx'
 import Lab from './pages/Lab.jsx'
 import Layout from './layouts/Layout.jsx'
-import ProductGallery from  "./pages/ProoductGallery.jsx"
+import ProductGallery from  "./pages/ProductGallery.jsx"
+import { features } from './features.js';
 
 
 createRoot(document.getElementById('root')).render(
@@ -19,7 +20,7 @@ createRoot(document.getElementById('root')).render(
           <Route index element={<Home />} />
           <Route path="/designers" element={<Designers />} />
           <Route path="/lab" element={<Lab />} />
-           <Route path="/produkt-galleri" element={<ProductGallery />} />
+           {features.gallery && <Route path="/produkt-galleri" element={<ProductGallery />} />}
         </Route>
       </Routes>
     </BrowserRouter>

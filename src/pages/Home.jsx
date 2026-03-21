@@ -12,6 +12,7 @@ import Carousel from "../components/carousel.jsx";
 import LocationSection from "../components/locationSection.jsx";
 import DividedPictureAndTexte from "../components/dividedSection.jsx";
 import '../styles/home.css'
+import { features } from "../features.js";
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
 
       {/* <Events /> */}
 
-       <Carousel />
+  
 
       {/* <HeroGrid /> */}
       {/* <OpeningHours /> */} 
@@ -30,10 +31,11 @@ function Home() {
         <h1 className="dark ">Velkommen!</h1>
         <p className="text dark "> Atmos kunst er en ny butikk som har åpnet i Trondheim! Butikken drives av håndverkere og kunstnere som har gått sammen for å selge produktene sine sammen på ett sted. Her vinner du alt du vil trenge av gaver til både deg selv og de du er glad i!</p>
       </section>
-     <DividedPictureAndTexte />
+     {features.dividedSection && <DividedPictureAndTexte />}
       {/* <ChristmasOpeningHours /> */}
-      <LocationSection />
-     
+       <Carousel />
+       <LocationSection />
+         
       <PictureDisplay />
 
       <p className="info text-center">Denne nettsiden er under utvikling :) </p>
