@@ -4,135 +4,112 @@ import DesignerCard from './designerSection.jsx';
 import '../styles/carousel.css';
 import '../styles/designers.css'
 
-
 function DesignerCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(true);
-  const [isMobile, setIsMobile] = useState(
-    typeof window !== 'undefined' && window.innerWidth < 768
-  );
-
-
-  // Handle window resize
-  useEffect(() => {
-    function handleResize() {
-      setIsMobile(window.innerWidth < 768);
-    }
-
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
 
   // Auto-play effect
   useEffect(() => {
-    if (!isPlaying || !isMobile) return;
+    if (!isPlaying || designers.length === 0) return;
 
     const interval = setInterval(() => {
       setCurrentIndex(prev => (prev + 1) % designers.length);
     }, 4000);
 
     return () => clearInterval(interval);
-  }, [isPlaying, isMobile, designers.length]);
+  }, [isPlaying, designers.length]);
 
   function goToSlide(index) {
     setCurrentIndex((index + designers.length) % designers.length);
-    setIsPlaying(true);
+    setIsPlaying(false);
   }
 
   function nextSlide() {
     setCurrentIndex(prev => (prev + 1) % designers.length);
-    setIsPlaying(true);
+    setIsPlaying(false);
   }
 
   function prevSlide() {
     setCurrentIndex(prev => (prev - 1 + designers.length) % designers.length);
-    setIsPlaying(true);
+    setIsPlaying(false);
   }
 
   function toggleAutoPlay() {
     setIsPlaying(!isPlaying);
   }
 
-  const offsetPercentage = isMobile ? currentIndex * 100 : 0;
+  const offsetPercentage = currentIndex * 100;
+
+  if (designers.length === 0) {
+    return <div className="carousel-wrapper"><p>No designers found.</p></div>;
+  }
 
   return (
     <div className="carousel-wrapper">
       <div className="carousel-container">
+        
+        <button
+          onClick={toggleAutoPlay}
+          aria-label={isPlaying ? 'Pause carousel auto-advance' : 'Play carousel auto-advance'}
+          className="play-pause-button"
+        >
+          {isPlaying ? '⏸ Pause' : '▶ Play'}
+        </button>
         <div
           role="region"
           aria-label="Designer carousel"
           aria-live="polite"
-          className={`carousel ${isMobile ? 'carousel--mobile' : 'carousel--desktop'}`}
+          aria-atomic="false"
+          className="carousel"
           style={{
-            transform: isMobile ? `translateX(-${offsetPercentage}%)` : 'none',
+            transform: `translateX(-${offsetPercentage}%)`,
           }}
         >
           {designers.map(({ title, text, images, soMe1, soMe2 }, index) => (
-            <div
-              key={index}
-              className="carousel-slide"
-              aria-hidden={isMobile && index !== currentIndex}
-            >
-              <DesignerCard
-                title={title}
-                text={text}
-                images={images}
-                soMe1={soMe1}
-                soMe2={soMe2}
-              />
+            <div key={index} className="carousel-slide">
+              <DesignerCard key={index} title={title} text={text} images={images} soMe1={soMe1} soMe2={soMe2} />
             </div>
           ))}
         </div>
       </div>
 
-      {isMobile && (
-        <div className="carousel-controls">
-          <button
-            onClick={prevSlide}
-            aria-label="Previous designer"
-            className="carousel-button"
-          >
-            ← Previous
-          </button>
+      <div className="carousel-controls">
+        <button
+          onClick={prevSlide}
+          aria-label="Previous designer"
+          className="carousel-button"
+        >
+          ← Previous
+        </button>
 
-          <div role="tablist" aria-label="Carousel pages" className="carousel-indicators">
-            {designers.map((_, index) => (
-              <button
-                key={index}
-                onClick={() => goToSlide(index)}
-                role="tab"
-                aria-selected={index === currentIndex}
-                aria-label={`Go to designer ${index + 1}`}
-                className={`indicator ${index === currentIndex ? 'indicator--active' : ''}`}
-              />
-            ))}
-          </div>
-
-          <button
-            onClick={nextSlide}
-            aria-label="Next designer"
-            className="carousel-button"
-          >
-            Next →
-          </button>
+        <div role="tablist" aria-label="Carousel pages" className="carousel-indicators">
+          {designers.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => goToSlide(index)}
+              role="tab"
+              aria-selected={index === currentIndex}
+              aria-label={`Go to designer ${index + 1}`}
+              className={`indicator ${index === currentIndex ? 'indicator--active' : ''}`}
+            />
+          ))}
         </div>
-      )}
 
-      {isMobile && (
-        <>
-          <div className="carousel-status" aria-live="polite" aria-atomic="true">
-            Showing designer {currentIndex + 1} of {designers.length}
-          </div>
+        <button
+          onClick={nextSlide}
+          aria-label="Next designer"
+          className="carousel-button"
+        >
+          Next →
+        </button>
+      </div>
 
-          <button
-            onClick={toggleAutoPlay}
-            aria-label={isPlaying ? 'Pause carousel auto-advance' : 'Play carousel auto-advance'}
-            className="play-pause-button"
-          >
-            {isPlaying ? '⏸ Pause' : '▶ Play'}
-          </button>
-        </>
-      )}
+      <div className="carousel-status-controls">
+        <div className="carousel-status" aria-live="polite" aria-atomic="true">
+          Designer {currentIndex + 1} of {designers.length}
+        </div>
+
+      </div>
     </div>
   );
 }

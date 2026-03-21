@@ -1,9 +1,8 @@
 .contentContainer {
-  margin-bottom: 3rem
+  margin-bottom: 2rem
 }
 
 .imageSection {
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 0.5rem;
@@ -21,7 +20,7 @@
 }
 
 .designerSection h2 {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
 }
 
 .designerSection p {
@@ -58,6 +57,7 @@
     overflow: hidden;
     height: 100%;
     flex-direction: column;
+    padding: 1rem 
   }
 
   .imageSection {
@@ -70,7 +70,7 @@
     flex-direction: column;
     flex: 1;
     /* border: 2px solid purple; */
-    margin: 3rem 1rem;
+    /* margin: 0rem 0rem; */
   }
 }
 

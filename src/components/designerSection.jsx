@@ -15,11 +15,13 @@ function DesignerCard({ title, text, images, soMe1, soMe2 }) {
         </div>
 
         <div className="imageSection">
-          {images.map(({ src, alt }) =>
+          {images.map(({ src, alt }, index) =>
             <img
+              key= {index}
               loading="lazy"
               src={"/images/designersImg/" + src}
-              alt={alt}></img>
+              alt={alt}
+              ></img>
           )}
         </div></div>
     </section>
