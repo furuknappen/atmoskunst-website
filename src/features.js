@@ -27,5 +27,6 @@ import { features } from "../features.js";
 export const features = {
   gallery: import.meta.env.VITE_FEATURE_PRODUCTGALLERY==="true",
   dividedSection: import.meta.env.VITE_FEATURE_DIVIDEDSECTION==="true",
+  carousel:import.meta.env.VITE_FEATURE_CAROUSEL==="true"
 
 }

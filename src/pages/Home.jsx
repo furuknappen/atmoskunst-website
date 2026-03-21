@@ -33,7 +33,7 @@ function Home() {
       </section>
      {features.dividedSection && <DividedPictureAndTexte />}
       {/* <ChristmasOpeningHours /> */}
-       <Carousel />
+       {features.carousel && <Carousel />}
        <LocationSection />
          
       <PictureDisplay />
