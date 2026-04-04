@@ -32,17 +32,9 @@
 /* ............ Desktops ................*/
 @media (min-width: 1025px) {
     .designersMain {
-    max-width:30rem;
-    margin-inline: auto;
-  }
-
-}
-
-/* ............ Desktops ................*/
-@media (min-width: 1025px) {
-  .designersMain {
     max-width:80rem;
     margin-inline: auto;
+    /* background-color: red; */
   }
 
 }
@@ -50,7 +42,7 @@
 /*............ Large Desktops ................*/
 @media (min-width: 2550px) {
     .designersMain {
-    max-width:0rem;
+    max-width:100rem;
     margin-inline: auto;
   }
 
