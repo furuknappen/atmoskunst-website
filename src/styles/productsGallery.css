@@ -44,9 +44,19 @@
    color: #3a5a8a;
  }
 
+ .pg-info-text {
+  padding-bottom: 2.5rem;
+  max-width: 50rem;
+  margin: auto;
+  padding-inline: 1rem;
+ }
+
+
  /* ── Filters ── */
  .pg-filters {
-   padding: 0 13rem 40px;
+   padding-bottom: 2rem;
+   margin-inline: 3rem;
+   justify-content: center;
    display: flex;
    gap: 8px;
    flex-wrap: wrap;
@@ -320,8 +330,10 @@
    }
 
    .pg-filters {
-     padding: 0 20px 28px;
+     padding: 0 0px 28px;
+     /* padding:  */
    }
+   
 
    .pg-count {
      padding: 0 20px 14px;
@@ -332,12 +344,7 @@
      grid-template-columns: repeat(2, 1fr);
      grid-auto-rows: 160px;
      gap: 10px;
+     grid-auto-flow: dense;
    }
 
-   .pg-card--wide,
-   .pg-card--tall,
-   .pg-card--big {
-     grid-column: span 1;
-     grid-row: span 1;
-   }
  }

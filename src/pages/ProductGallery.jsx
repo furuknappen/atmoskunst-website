@@ -18,7 +18,7 @@ import products from "../data/gallery-products.json";
   =============================================
 */
 
-const CATEGORIES = ["Alle", "Keramikk", "Glass", "Foto", "Tekstil", "Smykker", "papir", "Parfyme",];
+const CATEGORIES = ["Alle", "Keramikk", "Glass", "Foto", "Tekstil", "Smykker", "Papir", "Parfyme",];
 
 const spanClass = (span) => {
   switch (span) {
@@ -47,7 +47,10 @@ export default function ProductGallery() {
           {/* <span className="pg-eyebrow">Atmos Kunst</span> */}
           <h1 className="pg-title">Våre produkter</h1>
         </header>
+        <p class="pg-info-text"> Velkommen til vårt lille foto galleri! Her får du en smakebit av hva du kan finne hos Atmos Kunst! 
 
+          
+        </p>
         <div className="pg-filters">
           {CATEGORIES.map((cat) => (
             <button
@@ -95,7 +98,7 @@ export default function ProductGallery() {
             aria-modal="true"
           >
             <div className="pg-lightbox" onClick={(e) => e.stopPropagation()}>
-              <img src={`images/galleryproducts/${lightbox.img}`} alt={lightbox.title} />
+              <img src={`images/galleryproducts/${lightbox.img}`} alt={lightbox.title}  />
               <button
                 className="pg-lightbox-close"
                 onClick={() => setLightbox(null)}
