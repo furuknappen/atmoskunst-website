@@ -1,5 +1,5 @@
 .contentContainer {
-  margin-bottom: 2rem
+  /* margin-bottom: 2rem */
 }
 
 .imageSection {
@@ -19,8 +19,8 @@
 
 }
 
-.designerSection h2 {
-  /* padding-top: 1rem; */
+.designerSection  {
+  padding-bottom: 1rem; 
 }
 
 .designerSection p {
@@ -40,6 +40,7 @@
   /* line-height: 0; */
   color: gray;
   margin-block: 0;
+  font-size: 0.9rem;
   /* margin: 0px 0px 60px; */
 }
 
@@ -57,7 +58,8 @@
     overflow: hidden;
     height: 100%;
     flex-direction: column;
-    padding: 1rem 
+    padding: 1rem;
+    padding-bottom: 3rem; 
   }
 
   .imageSection {
