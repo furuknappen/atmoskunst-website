@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import designers from "../data/designers.json"
 import DesignerCard from './designerSection.jsx';
+import PlayBtn from "../assets/player-play.svg?react"
+import PauseBtn from "../assets/player-pause.svg?react"
+import ArrowLeft from "../assets/arrow-left.svg?react"
+import ArrowRight from "../assets/arrow-right.svg?react"
 import '../styles/carousel.css';
 import '../styles/designers.css'
 
@@ -47,13 +51,13 @@ function DesignerCarousel() {
   return (
     <div className="carousel-wrapper">
       <div className="carousel-container">
-        
+
         <button
           onClick={toggleAutoPlay}
           aria-label={isPlaying ? 'Pause carousel auto-advance' : 'Play carousel auto-advance'}
           className="play-pause-button"
         >
-          {isPlaying ? '⏸ Pause' : '▶ Start'}
+          {isPlaying ? (<><PauseBtn className="play-pause-icon" /> Pause</>) :  (<><PlayBtn className="play-pause-icon" /> Start</>) }
         </button>
         <div
           role="region"
@@ -73,41 +77,42 @@ function DesignerCarousel() {
         </div>
       </div>
 
-      <div className="carousel-controls">
-        <button
-          onClick={prevSlide}
-          aria-label="Previous designer"
-          className="carousel-button"
-        >
-          ← Forrige
-        </button>
+      <div className="carousel-controls">  <div className="carousel-status" aria-live="polite" aria-atomic="true">
+            Designer {currentIndex + 1} av {designers.length}
+          </div>
+        <div className="carousel-status-controls">
+        
+          <button
+            onClick={prevSlide}
+            aria-label="Previous designer"
+            className="carousel-button"
+          >
+            <> <ArrowLeft className="arrow-svg" /> Forrige</>
+          </button>
 
-        <div role="tablist" aria-label="Carousel pages" className="carousel-indicators">
-          {designers.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => goToSlide(index)}
-              role="tab"
-              aria-selected={index === currentIndex}
-              aria-label={`Go to designer ${index + 1}`}
-              className={`indicator ${index === currentIndex ? 'indicator--active' : ''}`}
-            />
-          ))}
+          <div role="tablist" aria-label="Carousel pages" className="carousel-indicators">
+            {designers.map((_, index) => (
+              <button
+                key={index}
+                onClick={() => goToSlide(index)}
+                role="tab"
+                aria-selected={index === currentIndex}
+                aria-label={`Go to designer ${index + 1}`}
+                className={`indicator ${index === currentIndex ? 'indicator--active' : ''}`}
+              />
+            ))}
+          </div>
+
+          <button
+            onClick={nextSlide}
+            aria-label="Next designer"
+            className="carousel-button"
+          >
+           <> Neste <ArrowRight className="arrow-svg" /> </>
+          </button>
         </div>
 
-        <button
-          onClick={nextSlide}
-          aria-label="Next designer"
-          className="carousel-button"
-        >
-          Neste →
-        </button>
-      </div>
 
-      <div className="carousel-status-controls">
-        <div className="carousel-status" aria-live="polite" aria-atomic="true">
-          Designer {currentIndex + 1} av {designers.length}
-        </div>
 
       </div>
     </div>
