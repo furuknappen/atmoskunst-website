@@ -1,6 +1,7 @@
 [
   {
     "title": "Camilla Furuknappen Larsen",
+    "displayName": "Furuknappen Keramikk",
     "text": "Camilla står bak Furuknappen Keramikk og lager håndlagde keramikkverk i Trondheim. Hun har elsket å lage ting med hendene siden hun var liten, og har drevet med keramikk siden 2017. Camilla er selvlært og har en forkjærlighet for små figurer og funksjonelle gjenstander som sprer glede i hjemmet. ",
     "images": [
       {
@@ -22,6 +23,7 @@
   },
       {
     "title": "Helene Øyangen Lindberg",
+    "displayName": "Gullokk",
     "text": "Helene er industridesigner og gullsmedhåndverker Gullokk, som lager smykker for å tilføre jordnær eleganse til hverdagen. Med fokus på behagelig passform og holdbare konstruksjoner blir det hun lager favoritter som skinner i årevis. De små skattene av gull og sølv er ofte inspirert av nordisk natur, og lages med tradisjonelle håndverksteknikker i verkstedet på Byåsen i Trondheim.",
     "images": [
       {
@@ -43,6 +45,7 @@
   },
     {
     "title": "Indre Jakimavicute",
+    "displayName": "JAKI.I",
     "text": "Indrehjerterom er et lite håndverksstudio i Trondheim, der Indre lager unike resinsmykker og dekor med ekte tørkede blomster. Hvert objekt foreviger naturens skjøre skjønnhet og hjelper til å vekke dyrebare minner fra spesielle øyeblikk. Natuen er viktig for Indre og har hjulpet henne gjennom vanskelige tider med sin stille styrke og helbredelse. Denne følelsen ønsker hun å dele med andre.  ",
     "images": [
       {
@@ -64,6 +67,7 @@
   },
     {
     "title": "Ingrid Oline",
+    "displayName": "Ingrid Oline",
     "text": "Ingrid Oline er designer og hun skaper innbydende papir- og tekstilprodukter. Arbeidene hennes kjennetegnes av rene linjer, ofte myke fargepaletter og botanikk, eller andre søte motiv. Med fokus på kvalitetsmaterialer, lokal produksjon og tidløse detaljer utvikler hun produkter som både inspirerer og varer. Ingrid lager: notatbøker, kort, t-skjorter, plakater, original kunst, oppskriftsbøker, små gavelapper for å nevne noe.",
  "images": [
       {
@@ -84,6 +88,7 @@
   }, 
   {
     "title": "May-Bente Sandnes",
+    "displayName": "Atelier Maya Sandnes",
     "text": "May-Bente har alltid hatt en sterk skapertrang som gjenspeiles i både yrkesvalg og hobbyer. Hun elsker å planlegge, prosjektere og se ideer bli til ferdige resultater. Inspirasjonen henter hun fra hage, sjø og natur. Gjennom Atelier Maya Sandnes skaper hun unik kunst og brukskunst i glass, keramikk, betong og smykker i sølvleire.",
     "images": [
       {
@@ -104,6 +109,7 @@
   }, 
     {
     "title": "Laura Bustamante Donaire",
+    "displayName": "Laura Bustam",
     "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, ta på og se på.",
     "images": [
       {
@@ -124,6 +130,7 @@
   },
   {
     "title": "Minna Alina Dehls",
+    "displayName": "Fox and Cubs",
     "text": "Fox and Cubs Jewellery spesialiserer seg på håndlagde, unike smykker med halvedelstener, porselen og ferskvannsperler. Med fokus på kvalitet og personlig uttrykk er hvert element laget med omhu for å gjenspeile individualitet og meningsfulle minner. Fox and Cubs tilbyr et bærekraftig alternativ til masseproduserte smykker, og skaper varige skatter som forteller en historie.",
     "images": [ 
       {
@@ -145,6 +152,7 @@
   },
     {
     "title": "Sunniva & Mayo Kwapeng",
+    "displayName": "Château Privé",
     "text": "Château Privé er drømmen til Mayo og Sunniva - en idé som startet for lenge siden, men ble virkelig da de lanserte merket 01.02.2025. Mayo kommer fra Johannesburg, Sunniva fra Skatval. Sammen skaper de eksklusive nisjedufter som gir deg hverdagsluksus.",
     "images": [
       {
@@ -166,6 +174,7 @@
   },
     {
     "title": "Wanda Filarowski",
+    "displayName": "Tante Pipas Poser",
     "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
     "images": [
       {

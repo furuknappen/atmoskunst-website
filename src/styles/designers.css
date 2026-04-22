@@ -16,7 +16,21 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+}
 
+/* ── Highlight animation for scrolled designer ── */
+@keyframes designerHighlight {
+  0%, 100% {
+    background-color: transparent;
+  }
+  50% {
+    background-color: rgba(58, 90, 138, 0.1);
+  }
+}
+
+.designerSection--highlight {
+  animation: designerHighlight 0.6s ease-in-out 3;
+  border-radius: 8px;
 }
 
 

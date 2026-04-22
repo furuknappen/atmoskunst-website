@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useNavigate } from "react-router";
 import '../styles/productsGallery.css'
 import products from "../data/gallery-products.json";
 
@@ -32,6 +33,7 @@ const spanClass = (span) => {
 export default function ProductGallery() {
   const [activeCategory, setActiveCategory] = useState("Alle");
   const [lightbox, setLightbox] = useState(null);
+  const navigate = useNavigate();
 
 
   const filtered =
@@ -108,6 +110,12 @@ export default function ProductGallery() {
                 <div>
                   <div className="pg-lightbox-title">{lightbox.title}</div>
                   <div className="pg-lightbox-artist">{lightbox.artist}</div>
+                  <button
+                    className="pg-lightbox-designer-btn"
+                    onClick={() => navigate(`/designers?artist=${encodeURIComponent(lightbox.artist)}`)}
+                  >
+                    Se Designer →
+                  </button>
                 </div>
                 <span className="pg-lightbox-category">{lightbox.category}</span>
               </div>
