@@ -28,15 +28,19 @@ footer svg {
   color: var(--mainColor);
   width: 70%;
   height: auto;
+  margin-bottom: 5rem
 }
 
 .flexDivFooter {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-inline: clamp(10%, 12%, 8rem);
-  padding-block: 5vw;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* padding-inline: clamp(10%, 12%, 8rem); */
 
+  padding-block: 3rem;
+  padding-inline: 1rem;
+
+  /* border: 2px solid red */
 }
 
 footer nav {
@@ -44,9 +48,7 @@ footer nav {
   display: none;
 }
 
-footer ul {
-  text-wrap: nowrap;
-}
+
 
 footer a {
   text-decoration: none;
@@ -69,27 +71,44 @@ footer h3 {
 }
 
 .logoAndSocials {
-  margin-top: 30px;
-  margin-inline: 1rem;
+  /* margin-top: 30px;   */
+  /* margin-right: 5rem; */
   color: var(--MainColor);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 2px solid green */
 }
 
+footer ul {
+  text-wrap: nowrap;
+}
 .socials {
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  list-style: none;
-  height: 3rem;
-  margin-top: 4rem;
+  /* justify-content: space-around; */
+  flex-direction: column;
+  justify-content: left;
+  /* border: 2px solid red; */
+    /* align-items: center */
+    /* list-style: none; */
+    /* height: 3rem; */
+    margin-inline: 5rem;
 }
 
+.socials li a {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 1rem
+}
 .socials img {
   height: 40px;
 }
 
 footer p {
-  justify-self: center;
-  padding-bottom: 2rem;
+  /* justify-self: center;
+  padding-bottom: 2rem; */
 }
 
 .mobileLinks {
@@ -109,8 +128,16 @@ footer p {
   }
 
   .flexDivFooter {
+    padding-block: 4rem;
+    padding-inline: 5rem;
+  }
+
+
+
+
+  .flexDivFooter {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   footer li {
@@ -120,4 +147,25 @@ footer p {
   .mobileLinks {
     display: none;
   }
-}
+
+  .logoAndSocials {
+    flex-direction: row;
+  }
+
+} 
+
+
+
+/* ............ Desktops ................*/
+ @media (min-width: 1025px) {
+.flexDivFooter {
+    padding-block: 5rem 2rem;
+    padding-inline: 10rem;
+    /* justify-content: center; */
+  }
+
+    .logoAndSocials {
+  justify-content: space-between;
+  }
+
+ }

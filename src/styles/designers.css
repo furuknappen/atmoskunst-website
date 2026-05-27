@@ -44,7 +44,7 @@
 }
 
 /* ............ Desktops ................*/
-@media (min-width: 1025px) {
+ @media (min-width: 1025px) {
     .designersMain {
     max-width:80rem;
     margin-inline: auto;

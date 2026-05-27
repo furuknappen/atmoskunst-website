@@ -3,7 +3,7 @@ import Instagram from '../assets/instagram.svg?react'
 import Facebook from '../assets/facebook.svg?react'
 import LogoFooter from '../assets/atmos-egen.svg?react'
 import Tiktok from '../assets/tiktok.svg?react'
-
+import Email from '../assets/mail.svg?react'
 
 function Footer() {
 return <>
@@ -20,21 +20,31 @@ return <>
 
         <div aria-label="Follow Atmos kunst on social media">
           <ul className="socials">
+             <li>
+              <a href="mailto:post@atmoskunst.no" aria-label="Atmos Kunst mail">
+              <Email />
+              post@atmoskunst.no
+              </a>
+            </li>
             <li>
               <a href="https://www.tiktok.com/@atmos.kunst" target="_blank" aria-label="Atmos Kunst on tiktok">
               <Tiktok />
+              @atmos.kunst
               </a>
             </li>
             <li>
               <a href="https://instagram.com/atmos.kunst" target="_blank" aria-label=" Atmos Kunst on instagram">
               <Instagram />
+              atmos.kunst
               </a>
             </li>
             <li>
               <a href="https://www.facebook.com/profile.php?id=61582690341465" target="_blank" aria-label=" Atmos Kunst on facebook">
           <Facebook />
+          Atmos Kunst
               </a>
             </li>
+            
           </ul>
         </div>
 
