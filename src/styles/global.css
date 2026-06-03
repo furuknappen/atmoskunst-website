@@ -31,7 +31,7 @@ a:hover{
 }
 
 li{
-  list-style: none;
+  /* list-style: none; */
 }
 
 .dark{
@@ -84,6 +84,15 @@ p {
 
 p:last-child{
   margin-bottom: 0px;
+}
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding:0;
+  overflow: hidden;
+  clip-path: inset(50%);
+white-space: nowrap;
 }
 
 @media (min-width: 768px) {

@@ -6,10 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /*bytt til space between*/
   border-bottom: 1px solid rgb(197, 195, 195);
-
-
 }
 
 .logo {
@@ -20,22 +17,51 @@
   margin-left: 1rem;
 }
 
-.headerNav {
-  display: flex;
-  /* justify-content: space-between; */
-  gap:4rem;
-  /* border: 2px solid red; */
-  font-family: var(--poppins);
-  font-weight: 300;
-  margin-right: 1rem
+/* Hamburger button — hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  z-index: 100;
 }
 
+.hamburger-line {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: var(--mainColor);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Animate to X when open */
+.hamburger-line.open:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger-line.open:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-line.open:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.headerNav {
+  display: flex;
+  gap: 4rem;
+  font-family: var(--poppins);
+  font-weight: 300;
+  margin-right: 1rem;
+}
 
 .headerNav a:hover {
   text-decoration: underline 2px var(--mainColor);
   text-underline-offset: 4px;
   color: var(--mainColor);
-
 }
 
 .headerNav a.active {
@@ -44,15 +70,39 @@
   color: var(--mainColor);
 }
 
-/* .............. iPads (tablets) - Landscape ............ */
-@media (min-width: 768px) {
-
-  .logo {
-    margin-left: 5rem;
+/* Mobile */
+@media (max-width: 767px) {
+  .hamburger {
+    display: flex;
   }
 
   .headerNav {
-    margin-right: 5rem
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+    background-color: white; /* swap for your background var if you have one */
+    border-bottom: 1px solid rgb(197, 195, 195);
+    z-index: 99;
   }
 
+  .headerNav.nav-open {
+    display: flex;
+  }
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .logo {
+    margin-left: 4rem;
+  }
+
+  .headerNav {
+    margin-right: 5rem;
+  }
 }

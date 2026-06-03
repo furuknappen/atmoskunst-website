@@ -10,7 +10,7 @@ import Lab from './pages/Lab.jsx'
 import Layout from './layouts/Layout.jsx'
 import ProductGallery from  "./pages/ProductGallery.jsx"
 import { features } from './features.js';
-
+import MembershipInfo from './pages/Memberinfo.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +21,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/designers" element={<Designers />} />
           <Route path="/lab" element={<Lab />} />
            {features.gallery && <Route path="/produkt-galleri" element={<ProductGallery />} />}
+           <Route path="/medlem" element={<MembershipInfo />} />
         </Route>
       </Routes>
     </BrowserRouter>
