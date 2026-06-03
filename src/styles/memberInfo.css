@@ -1,0 +1,79 @@
+.main-memberInfo {
+  padding-block: 2rem;
+  padding-inline: 0.5rem;
+display: flex;
+align-items: center;
+text-wrap: balance;
+}
+.memberIntroText{
+  width: 80%;
+  text-align: center;
+}
+
+.membersInfoContainer {
+  display: grid;
+  grid-template-columns: 400px;
+  /* margin-inline: auto; */
+  margin-block: 3rem
+
+}
+.membersInfoContainer h3 {
+  font-family: var(--poppins);
+  font-weight: 400;
+  margin-block: 3rem 1rem;
+}
+
+.memberInfoDiv {
+  padding-inline: 1rem;
+  padding-block: 2rem;
+  border-radius: var(--borderRad);
+  background-color: rgb(255, 255, 255);
+ 
+  border: 1.5px solid #dde3ec;
+}
+
+.memberInfoDiv li {
+  /* list-style: circle; */
+  margin-inline: 2rem;
+  margin-bottom: 1rem
+}
+
+.memberInfoDiv a{
+  display:flex;
+  align-items: center;
+font-size: 1.2rem;
+text-decoration: underline;
+text-underline-offset: 3px;
+
+margin-top: 2rem
+
+}
+
+
+/* .............. iPads (tablets) - Landscape ............ */
+@media (min-width: 768px) {
+
+  .main-memberInfo {
+    padding-block: 1rem;
+    padding-inline: 2rem;
+  }
+
+  .membersInfoContainer {
+    grid-template-columns: 1fr 1fr;
+    /* margin-inline: 2rem; */
+    gap: 1rem;
+    /* margin-block: 1rem; */
+  }
+
+}
+
+
+/* ............ Desktops ................*/
+@media (min-width: 1025px) {
+  .membersInfoContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 5rem;
+  
+  }
+
+}
