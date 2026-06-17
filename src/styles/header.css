@@ -1,7 +1,7 @@
 .headerDiv {
   background-color: transparent;
   position: static;
-  width: 100vw;
+  /* width: 100vw; */
   height: 4.5rem;
   display: flex;
   align-items: center;

@@ -22,7 +22,10 @@ text-wrap: balance;
   font-weight: 400;
   margin-block: 3rem 1rem;
 }
-
+.link-in-text{
+  color: var(--accentColor4);
+  text-underline-offset:3px;
+}
 .memberInfoDiv {
   padding-inline: 1rem;
   padding-block: 2rem;
@@ -30,6 +33,19 @@ text-wrap: balance;
   background-color: rgb(255, 255, 255);
  
   border: 1.5px solid #dde3ec;
+}
+#member-container-1{
+background-color: var(--secondColor1);
+}
+.membersInfoContainer h2,
+.membersInfoContainer a{
+color: var(--secondColor4);
+}
+#member-container-2{
+background-color: var(--accentColor1);
+}
+#member-container-3{
+background-color: var(--accentColor1);
 }
 
 .memberInfoDiv li {
