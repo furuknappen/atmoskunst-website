@@ -17,33 +17,10 @@
         "alt": "Keramikkdompap som henger på en gren"
       }
     ],
- 
     "soMe1": "Facebook: Furuknappen Keramikk",
     "soMe2": "Instagram: @camilla_furuknappen"
   },
-      {
-    "title": "Johanne og Frøydis",
-    "displayName": "Tante Pipas Poser",
-    "text": "Tante Pipas Poser er drevet av mor og datter fra systuen i kjelleren på Heimdal. Frøydis har alltid vært hobbyinteressert og denne interessen er arvet ned til Johanne. Etter innkjøp av et parti på 1000 glidelåser er de nå godt i gang med å sy opp toalettmapper, prosjektposer til strikke- og hekletøy og det de kommer på. Stoffet som brukes er gjerne gjenbruk og redesign eller håndstrikket og vevd av Tantene selv. Hvert produkt er unikt og håndlaget med kjærlighet.  ",
-    "images": [
-      {
-        "src": "johanne-pfp.jpg",
-        "alt": "Mor Frøydis med datter Johanne"
-      },
-      {
-        "src": "johanne1.jpg",
-        "alt": "En turkis toalettmappe"
-      },
-      {
-        "src": "johanne2.jpg",
-        "alt": "to matchende mapper med tekopp-motiv."
-      }
-    ],
- 
-    "soMe1": "Instagram: TantePipasPoser"
-   
-  },
-    {
+  {
     "title": "Indre Jakimavicute",
     "displayName": "JAKI.I",
     "text": "Indrehjerterom er et lite håndverksstudio i Trondheim, der Indre lager unike resinsmykker og dekor med ekte tørkede blomster. Hvert objekt foreviger naturens skjøre skjønnhet og hjelper til å vekke dyrebare minner fra spesielle øyeblikk. Naturen er viktig for Indre og har hjulpet henne gjennom vanskelige tider med sin stille styrke og helbredelse. Denne følelsen ønsker hun å dele med andre.  ",
@@ -61,15 +38,14 @@
         "alt": "gulløredobber med lilla tørkede blomster inni hjerteformer"
       }
     ],
- 
     "soMe1": "Facebook: Indrehjerterom",
     "soMe2": "Instagram: indrehjerterom"
   },
-    {
+  {
     "title": "Ingrid Oline",
     "displayName": "Ingrid Oline",
     "text": "Ingrid Oline er designer og hun skaper innbydende papir- og tekstilprodukter. Arbeidene hennes kjennetegnes av rene linjer, ofte myke fargepaletter og botanikk, eller andre søte motiv. Med fokus på kvalitetsmaterialer, lokal produksjon og tidløse detaljer utvikler hun produkter som både inspirerer og varer. Ingrid lager: notatbøker, kort, t-skjorter, plakater, original kunst, oppskriftsbøker, små gavelapper for å nevne noe.",
- "images": [
+    "images": [
       {
         "src": "ingrid-pfp.jpg",
         "alt": "Ingrid ute"
@@ -82,10 +58,10 @@
         "src": "ingrid2.jpg",
         "alt": "bursdagskort med blomster på"
       }
-        ],
+    ],
     "soMe1": "Instagram: ingridoline",
     "soMe2": "Facebook: ingridolineart"
-  }, 
+  },
   {
     "title": "May-Bente Sandnes",
     "displayName": "Atelier Maya Sandnes",
@@ -103,11 +79,11 @@
         "src": "maya2.png",
         "alt": "blå glass vase"
       }
-        ],
+    ],
     "soMe1": "Facebook: Atelier Maya Sandnes",
     "soMe2": "Instagram : ateliermayasandnes"
-  }, 
-    {
+  },
+  {
     "title": "Laura Bustamante Donaire",
     "displayName": "Laura Bustam",
     "text": "Laura er en keramiker fra Barcelona som har bosatt seg i Trondheim. Hun står bak bedriften Laura Bustam og arbeider med håndlaget keramikk og skaper objekter der form og prosess er like viktige som funksjon. Hver gjenstand er unik og kan ikke gjentas. Inspirasjonen kommer fra arkitektur, blomster og organiske former. Hun balanserer det funksjonelle med det skulpturelle og skaper produkter man får lyst til å bruke, ta på og se på.",
@@ -132,7 +108,7 @@
     "title": "Minna Alina Dehls",
     "displayName": "Fox and Cubs",
     "text": "Fox and Cubs Jewellery spesialiserer seg på håndlagde, unike smykker med halvedelstener, porselen og ferskvannsperler. Med fokus på kvalitet og personlig uttrykk er hvert element laget med omhu for å gjenspeile individualitet og meningsfulle minner. Fox and Cubs tilbyr et bærekraftig alternativ til masseproduserte smykker, og skaper varige skatter som forteller en historie.",
-    "images": [ 
+    "images": [
       {
         "src": "minna-pfp.jpg",
         "alt": "Minna i svart blomstrete topp"
@@ -145,12 +121,32 @@
         "src": "minna2.jpg",
         "alt": "øredobber med gule andeperler og perler"
       }
-   ],
- 
+    ],
     "soMe1": "Facebook: Fox&Cubs",
     "soMe2": "Instagram: @foxandcubs.no"
   },
-    {
+  {
+    "title": "Silje Elisabeth Heitmann Pedersen",
+    "displayName": "DesignByHeitmann",
+    "text": "Silje driver Design by Heitmann, et designstudio innen visuell design og kommunikasjon. Hun har en bachelorgrad i interiørdesign, en mastergrad i visuell kommunikasjon og seks års erfaring fra Selfmade, hvor hun oppdaget gleden ved å sy. Med øye for detaljer og lidenskap for kreativ utfoldelse skaper hun egne produkter. På Atmos finner du et utvalg av hennes egendesignede, sydde produkter.",
+    "images": [
+      {
+        "src": "silje-pfp.jpg",
+        "alt": "Silje ute forran grønne trær"
+      },
+      {
+        "src": "silje1.jpg",
+        "alt": "brun veske"
+      },
+      {
+        "src": "silje2.jpg",
+        "alt": "scrunchies på en hånd"
+      }
+    ],
+    "soMe1": "Instagram: designbyheitmann.produkter",
+    "soMe2": "Facebook: Design by Heitman"
+  },
+  {
     "title": "Sunniva & Mayo Kwapeng",
     "displayName": "Château Privé",
     "text": "Château Privé er drømmen til Mayo og Sunniva - en idé som startet for lenge siden, men ble virkelig da de lanserte merket 01.02.2025. Mayo kommer fra Johannesburg, Sunniva fra Skatval. Sammen skaper de eksklusive nisjedufter som gir deg hverdagsluksus.",
@@ -167,19 +163,18 @@
         "src": "sunniva2.jpg",
         "alt": "skål med bjørn"
       }
-   ],
- 
+    ],
     "soMe1": "Instagram/Facebook: @chateaupriveperfume",
     "soMe2": "TikTok: @chateauprive"
   },
-    {
+  {
     "title": "Wanda Filarowski",
     "displayName": "Tante Pipas Poser",
     "text": "Wanda er utdannet interiørarkitekt og industriell designer spesialisert i interiør- og hverdagsprodukter. Hun eksperimenterer med materialer, teksturer og farger for å skape unike produkter som kombinerer nytt og gammelt, funksjonalitet og litt moro. Naturen og undervannsverden er en inspirasjonskilde i arbeidet hennes.",
     "images": [
       {
         "src": "wanda-pfp.jpg",
-        "alt":  "Wanda ute med olajakke"
+        "alt": "Wanda ute med olajakke"
       },
       {
         "src": "wanda1.jpg",
@@ -190,12 +185,7 @@
         "alt": "fotografi av en hvit undervannssvegle"
       }
     ],
- 
     "soMe1": "Instagram: wanda.filarowski",
     "soMe2": "Pinterest: wandafilarowski"
   }
-  
-
-   
-
 ]
