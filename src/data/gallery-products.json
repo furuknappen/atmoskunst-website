@@ -56,15 +56,7 @@
     "img": "IMG_6788.jpg",
     "objectPosition": "center center"
   },
-  {
-    "id": 7,
-    "title": "To mapper med temønster og glidelås ",
-    "artist": "Tante Pipas Poser",
-    "category": "Tekstil",
-    "span": "normal",
-    "img": "IMG_6779.jpg",
-    "objectPosition": "center center"
-  },
+
   {
     "id": 8,
     "title": "Fire parfymer på rekke",
@@ -123,15 +115,7 @@
     "transform": "scale(1)",
     "objectPosition": "center center"
   },
-  {
-    "id": 14,
-    "title": "En liten pose med nøkkelring",
-    "artist": "Tante Pipas Poser",
-    "category": "Tekstil",
-    "span": "normal",
-    "img": "IMG_6755.jpg",
-    "objectPosition": "center center"
-  },
+
   {
     "id": 15,
     "title": "Stort ovalt fat",
@@ -298,15 +282,6 @@
     "objectPosition": "center center"
   },
   {
-    "id": 33,
-    "title": "Mappe med glidelås og trondheimsmønster",
-    "artist": "Tante Pipas Poser",
-    "category": "Tekstil",
-    "span": "normal",
-    "img": "IMG_6758.jpg",
-    "objectPosition": "center center"
-  },
-  {
     "id": 34,
     "title": "Blomsterglass med telysholder",
     "artist": "Atelier Maya Sandnes",
@@ -363,16 +338,7 @@
     "img": "IMG_6715.jpg",
     "objectPosition": "center center"
   }, 
-    {
-    "id": 40,
-    "title": "Blå toalettmappe",
-    "artist": "Tante Pipas Poser",
-    "category": "Tekstil",
-    "span": "normal",
-    "img": "IMG_6769.jpg",
-    "transform": "scale(1.1)",
-    "objectPosition": "45% 80%"
-  },
+
    {
     "id": 41,
     "title": "Fjell-sølvring",

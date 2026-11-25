@@ -1,8 +1,17 @@
 .OpeninghoursSection{
    /* background-color: var(--secondColor2);  */
-   background-color: #B2CDDA;
+   background-color: var(--secondColor4);
    padding: 1rem 5rem;
    border-radius: 8px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color:white
+}
+
+.OpeninghoursSection h2{
+  color:white
 }
 
 .weeksContainer{
@@ -16,7 +25,15 @@
 .weeksContainer ul{
   line-height: 1.8rem;
 }
+.p{
+ width: 20rem;
+ padding: 1rem;
+}
+.ul{
+  margin: 2rem;
 
+}
+.ul li{ padding: 1rem;}
 .weeksContainer h3{
   margin-bottom: 0.6rem;
 } 
